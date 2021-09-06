@@ -1,0 +1,23 @@
+{
+  "name": "ssblue",
+  "alias": "blastoise",
+  "pokemon": "Blastoise",
+  "type": "Water",
+  "attacktypes": "Water",
+  "weakness": "Electric",
+  "role": "Support",
+  "hp": "684",
+  "atk": "166",
+  "def": "298",
+  "spatk": "190",
+  "spdef": "298",
+  "speed": "166",
+  "moves": "Water Pulse, Hydro Cannon, X Defese All, To The Top!",
+  "passives": "Force Field 4, Team Shout 9, Safety Net",
+  "pokefair": true,
+  "masterfair": false,
+  "ex": true,
+  "f2p": false,
+  "mega": true,
+  "dynamax": false
+}
