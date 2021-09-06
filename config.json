@@ -1,0 +1,9 @@
+{
+  "application_id": "*",
+  "public_key": "*",
+  "bot_token": "*",
+  "permissions": "105226701824",
+  "bot_prefix": "pm!",
+  "bot_owner": "247465235806552064",
+  "main_server": "*"
+}
