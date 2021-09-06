@@ -1,0 +1,23 @@
+{
+  "name": "annlillie",
+  "alias": "lunala",
+  "pokemon": "Lunala",
+  "type": "Ghost",
+  "attacktypes": "Ghost, Fairy",
+  "weakness": "Dark",
+  "role": "Striker",
+  "hp": "701",
+  "atk": "336",
+  "def": "137",
+  "spatk": "400",
+  "spdef": "137",
+  "speed": "336",
+  "moves": "Moongeist Beam, Moonblast, Potion, Shining Moonlight!",
+  "passives": "Alola Flag Bearer, Healthy Benefits 5, Super Preparation 4, Rejuvenate 6",
+  "pokefair": false,
+  "masterfair": true,
+  "ex": true,
+  "f2p": false,
+  "mega": false,
+  "dynamax": false
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ssleon",
+  "alias": "eternatus",
+  "pokemon": "Eternatus",
+  "type": "Dragon",
+  "attacktypes": "Dragon",
+  "weakness": "Psychic",
+  "role": "Striker",
+  "hp": "737",
+  "atk": "244",
+  "def": "132",
+  "spatk": "346",
+  "spdef": "132",
+  "speed": "390",
+  "moves": "Dynamax Cannon, Dire Hit+, X Speed+, Eternal Power!, *Max Move",
+  "passives": "Lucky Seven 4, MAX Damage Guard, Ramming Speed",
+  "pokefair": true,
+  "masterfair": false,
+  "ex": true,
+  "f2p": false,
+  "mega": false,
+  "dynamax": true
+}
