@@ -25,7 +25,11 @@ module.exports = {
     },
     "format_output": (data) =>
     {
-        let output = "Stats for " + data.name + " & " + data.pokemon + "\n";
+        if(!data.hasOwnProperty("nicename"))
+        {
+            data.nicename = data.name + " & " + data.pokemon;
+        }
+        let output = "Stats for " + data.nicename + "\n";
         output += "Type: " + data.type + "\n";
         output += "Attack Types: " + data.attacktypes + "\n";
         output += "Weakness: " + data.weakness + "\n";
