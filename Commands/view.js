@@ -38,6 +38,7 @@ module.exports = {
         output += "Atk: " + data.atk + "\t\tSpDef: " + data.spdef + "\n";
         output += "Def: " + data.def + "\t\tSpeed: " + data.speed + "\n";
         output += "Moves: " + data.moves + "\n";
+        output += "Passives: " + data.passives + "\n";
         if(data.ex === true)
         {
             output += "This sync pair is capable of EX.\n";
