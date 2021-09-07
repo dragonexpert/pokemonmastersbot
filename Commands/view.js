@@ -61,8 +61,20 @@ module.exports = {
         }
         if(data.f2p === true)
         {
-            output += "This sync pair is obtained via story mode or an event.";
+            output += "This sync pair is obtained via story mode or an event.\n";
         }
+        output += "Collective Strength: " + module.exports.calculate_strength(data);
         return output;
+    },
+    "calculate_strength": (data) => {
+        let strength = (data.hp * 4) + (data.atk * 6) + (data.def * 4) + (data.spatk * 6) + (data.spdef * 4) + (data.speed * 6);
+        if(strength % 5 === 5 || strength % 5 === 0)
+        {
+            return strength;
+        }
+        else
+        {
+            return strength - (strength % 5);
+        }
     }
 }
