@@ -2,15 +2,15 @@ const Discord = require("discord.js");
 const fs = require("fs");
 
 module.exports = {
-    "name": "addpair",
-    "description": "Adds a sync pair.",
-    "hasarguments": true,
-    "alias": "addsyncpair",
+    "name": "reload",
+    "description": "Reloads the Sync Pair Cache.  Required when edits are made to current sync pairs.",
+    "hasarguments": false,
+    "alias": "resync",
+    "auth": 2,
     "execute": (msg, args) =>
     {
         let syncPairData = fs.readdirSync("SyncPairs").filter(file => file.endsWith(".json"));
         msg.syncPairs = new Discord.Collection();
-        let command = args.replace("addpair ", "").toLowerCase();
         try
         {
             for (x in syncPairData)
