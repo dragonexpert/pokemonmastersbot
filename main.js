@@ -80,7 +80,7 @@ if(msg.content.indexOf(bot_prefix) === 0)
 
 function getAuth(msg)
 {
-    if(msg.user.id == Config.bot_owner)
+    if(msg.author.id == Config.bot_owner)
     {
         return 5;
     }
