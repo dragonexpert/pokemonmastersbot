@@ -6,7 +6,7 @@ module.exports = {
     "description": "Reloads the Sync Pair Cache.  Required when edits are made to current sync pairs.",
     "hasarguments": false,
     "alias": "resync",
-    "auth": 2
+    "auth": 2,
     "execute": (msg, args) =>
     {
         let syncPairData = fs.readdirSync("SyncPairs").filter(file => file.endsWith(".json"));
