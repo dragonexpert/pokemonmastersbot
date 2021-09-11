@@ -4,7 +4,7 @@
  */
 
 const Discord = require("discord.js");
-const Client = new Discord.Client({intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MESSAGES, Discord.Intents.FLAGS.DIRECT_MESSAGES], messageCacheLifetime: 3600 });
+const Client = new Discord.Client({partials: ["CHANNEL", "USER"], intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MESSAGES, Discord.Intents.FLAGS.DIRECT_MESSAGES], messageCacheLifetime: 3600 });
 const Config = require("./config.json");
 const fs = require("fs");
 Client.commands = new Discord.Collection();
@@ -64,7 +64,16 @@ if(msg.content.indexOf(bot_prefix) === 0)
                 ++y;
             }
         }
-        let message_content = commandInfo.execute(msg, arguments);
+        let message_content = "";
+        if(commandInfo.name !== "restartbot")
+        {
+            message_content = commandInfo.execute(msg, arguments);
+        }
+        else
+        {
+            // Need the Client object
+            message_content = commandInfo.execute(Client, msg,)
+        }
         if(message_content)
         {
             return msg.channel.send(message_content, {split: true});
