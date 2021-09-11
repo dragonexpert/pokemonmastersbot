@@ -1,5 +1,4 @@
-const BPDATA = require("../bp.json");
-
+const fs = require("fs");
 module.exports = {
     "name": "maxbp",
     "description": "Calculate the maximum BP that is possible to earn.",
@@ -9,7 +8,16 @@ module.exports = {
     {
         /* Any commands that alter the contents of ../bp.json must delete the require cache for the file so the proper value is returned.  THe only thing that should change
         is how many BP come from events. */
-
+        let BPDATA = null;
+        try
+        {
+            BPDATA = require("../bp.json");
+        }
+        catch(Exception)
+        {
+            console.error(Exception);
+            return "Could not read file: bp.json";
+        }
         // First get the current timestamp.
         // Any final calculations use ceil because you don't have to do it at a specific time of day.
         let timestamp = Date.now() / 1000;
