@@ -1,0 +1,9 @@
+{
+  "name": "cobalion",
+  "weakness": "Fire",
+  "hpbars": 3,
+  "hasallies": false,
+  "strategy": "Cobalion takes little damage from attacks unless it is afflicted with a status condition such as burn or poison. Try and get a status condition on it as soon as possible so you can dish out damage.  Each time Cobalion recovers from a status condition, it becomes more resistant to it until it gains immunity.  Flinching and trapping do not count as status conditions.  Cobalion will heal itself from the status condition at certain points in the fight.",
+        "f2p": "Flannery, Blaine, Flint, BP Erika, Koga, Misty, Janine, Skyla, Professor Oak",
+  "best": "Leon, Anniversary N, Kiawe, SS Leaf, SS Blue, SS Red, N, Volkner, Marnie"
+}
