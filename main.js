@@ -33,6 +33,39 @@ if(msg.content.indexOf(bot_prefix) === 0)
     let auth = getAuth(msg);
     let message_parts = message.split(" ");
     let command = message_parts[0];
+    let help = false;
+    if(message.toLowerCase() === "help")
+    {
+        // Retrieve a list of commands.
+        let commands = "Commands available: ";
+        let comma = "";
+        let auth_notice = "";
+        let commandFiles = fs.readdirSync("Commands").filter(file => file.endsWith(".js"));
+        for(y in commandFiles)
+        {
+            const command = require("./Commands/" + commandFiles[y]);
+            if(command.hasOwnProperty("auth"))
+            {
+                if(command.auth <= auth)
+                {
+                    commands += comma + "**" + command.name + "**";
+                    comma = ", ";
+                    auth_notice = "Commands in bold require elevated permissions.\n";
+                }
+            }
+            else
+            {
+                commands += comma + command.name;
+                comma = ", ";
+            }
+        }
+        return msg.channel.send(auth_notice + commands);
+    }
+    if(message.startsWith("help"))
+    {
+        command = message_parts[1];
+        help = true;
+    }
     let commandInfo = Client.commands.get(command) || Client.commands.find(cmd => cmd.alias && cmd.alias.includes(command));
     if (!commandInfo)
     {
@@ -40,10 +73,11 @@ if(msg.content.indexOf(bot_prefix) === 0)
     }
     try
     {
-        if(commandInfo.hasarguments === true && message_parts.length < 2)
+        if(commandInfo.hasarguments === true && message_parts.length < 2 && help === false)
         {
             return msg.author.send("This command requires a parameter.");
         }
+        // Do not override with help because users shouldn't get to see command info they aren't allowed.
         if(commandInfo.hasOwnProperty("auth"))
         {
             if(commandInfo.auth > auth)
@@ -67,7 +101,14 @@ if(msg.content.indexOf(bot_prefix) === 0)
         let message_content = "";
         if(commandInfo.name !== "restartbot")
         {
-            message_content = commandInfo.execute(msg, arguments);
+            if(help === false)
+            {
+                message_content = commandInfo.execute(msg, arguments);
+            }
+            else
+            {
+                message_content = commandInfo.name + "\nDescription: " + commandInfo.description;
+            }
         }
         else
         {
