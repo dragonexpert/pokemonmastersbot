@@ -8,3 +8,7 @@ into a new file.  The file name should not have spaces or special characters and
 You can also request features to be added to the bot.  Please create an issue for them.  I would eventually like to make it automatically update the bot in real time when a Pull Request on Github gets approved, but it will be something I'll have to figure out.
 
 Do not edit the file bp.json for any reason unless you are changing what the current event BP is.  The other fields use a timestamp so that it can be automatically calculated on the fly.
+
+
+## Bot Auth
+Do not ask to gain auth so you can use certain commands.  Auth will be given on an as-needed basis.  Most of the auth commands are used to modify the bot data and are not specific to a guild.  There are plenty of other bots to handle moderation issues.
