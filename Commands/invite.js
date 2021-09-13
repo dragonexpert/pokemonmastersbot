@@ -8,7 +8,7 @@ module.exports = {
     "execute": (msg, args) =>
     {
         return "You can invite the bot into your guild with this link: " + msg.client.generateInvite({
-            scopes: ['bot'],
+            scopes: ['bot', 'applications.commands'],
             permissions: "105226701824"
         });
     }
