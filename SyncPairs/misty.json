@@ -3,6 +3,7 @@
   "nicename": "Misty & Starmie",
   "alias": "starmie",
   "pokemon": "Starmie",
+  "stars": 3,
   "type": "Water",
   "attacktypes": "Water",
   "weakness": "Electric",
