@@ -99,7 +99,17 @@ if(msg.content.indexOf(bot_prefix) === 0)
             }
         }
         let message_content = "";
-        if(commandInfo.name !== "restartbot")
+
+        if(commandInfo.name === "restartbot")
+        {
+            // Need the Client object
+            message_content = commandInfo.execute(Client, msg,)
+        }
+        else if(commandInfo.name === "updatecommand" || commandInfo.name === "reloadcommand")
+        {
+            message_content = commandInfo.execute(msg, Client);
+        }
+        else
         {
             if(help === false)
             {
@@ -109,11 +119,6 @@ if(msg.content.indexOf(bot_prefix) === 0)
             {
                 message_content = commandInfo.name + "\nDescription: " + commandInfo.description;
             }
-        }
-        else
-        {
-            // Need the Client object
-            message_content = commandInfo.execute(Client, msg,)
         }
         if(message_content)
         {

@@ -64,6 +64,47 @@ module.exports = {
             output += "This sync pair is obtained via story mode or an event.\n";
         }
         output += "Collective Strength: " + module.exports.calculate_strength(data);
+
+        // Determine if it is a 3*, 4*, or 5* and calculate max stats.
+        let stars = 5;
+        if(data.hasOwnProperty("stars"))
+        {
+            stars = data.stars;
+        }
+
+        data.hp = parseInt(data.hp);
+        data.atk = parseInt(data.atk);
+        data.def = parseInt(data.def);
+        data.spatk = parseInt(data.spatk);
+        data.spdef = parseInt(data.spdef);
+        data.speed = parseInt(data.speed);
+
+        if(stars === 5)
+        {
+            data.hp += 100;
+            data.atk += 40;
+            data.def += 40;
+            data.spatk += 40;
+            data.spdef += 40;
+            data.speed += 40;
+        }
+        else
+        {
+            let bonus = 5 - stars;
+            // Use parenthesis to ensure consistent behavior.
+            data.hp += (bonus * 40);
+            data.atk += (bonus * 20);
+            data.def += (bonus * 20);
+            data.spatk += (bonus * 20);
+            data.spdef += (bonus * 20);
+            data.speed += (bonus * 20);
+        }
+        output += "\n\nMax Stats\n";
+        output += "Max HP: " + data.hp + "\t\t Max SpAtk: " + data.spatk + "\n";
+        output += "Max Atk: " + data.atk + "\t\tMax SpDef: " + data.spdef + "\n";
+        output += "Max Def: " + data.def + "\t\tMax Speed: " + data.speed + "\n";
+        output += "Max Collective Strength: " + module.exports.calculate_strength(data);
+
         return output;
     },
     "calculate_strength": (data) => {
