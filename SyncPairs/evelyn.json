@@ -16,7 +16,7 @@
   "moves": "Flame Wheel, Sacred Fire, X Regen All, Protect Us All!",
   "passives": "Fire Teamwork, Revenge Boost 9, Team Fist Bump 3, Quick Cure",
   "pokefair": false,
-  "masterfair": false,
+  "masterfair": true,
   "ex": false,
   "f2p": true,
   "mega": false,
