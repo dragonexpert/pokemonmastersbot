@@ -100,12 +100,12 @@ if(msg.content.indexOf(bot_prefix) === 0)
         }
         let message_content = "";
 
-        if(commandInfo.name === "restartbot")
+
+        if(commandInfo.name === "updatecommand")
         {
-            // Need the Client object
-            message_content = commandInfo.execute(Client, msg,)
+            message_content = commandInfo.execute(msg, Client);
         }
-        else if(commandInfo.name === "updatecommand" || commandInfo.name === "reloadcommand")
+        else if(commandInfo.name === "serverlist")
         {
             message_content = commandInfo.execute(msg, Client);
         }
@@ -122,6 +122,10 @@ if(msg.content.indexOf(bot_prefix) === 0)
         }
         if(message_content)
         {
+            if(commandInfo.hasOwnProperty("privateResponse"))
+            {
+                return msg.author.send(message_content, {split: true});
+            }
             return msg.channel.send(message_content, {split: true});
         }
     }
