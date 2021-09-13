@@ -3,6 +3,7 @@
   "nicename": "Main Character & Torchic",
   "alias": "torchic",
   "pokemon": "Torchic",
+  "stars": 3,
   "type": "Fire",
   "attacktypes": "Fire",
   "weakness": "Water",

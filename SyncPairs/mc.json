@@ -3,6 +3,7 @@
   "nicename": "Main Character & Pikachu",
   "alias": "pikachu",
   "pokemon": "Pikachu",
+  "stars": 3,
   "type": "Electric",
   "attacktypes": "Electric",
   "weakness": "Ground",
