@@ -17,7 +17,7 @@
   "passives": "Power Reserves 2",
   "pokefair": false,
   "masterfair": false,
-  "ex": false,
+  "ex": true,
   "f2p": true,
   "mega": false,
   "dynamax": false
