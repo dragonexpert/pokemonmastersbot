@@ -3,7 +3,8 @@ const fs = require("fs");
 
 module.exports = {
     "name": "search",
-    "description": "Searches the sync pair roster.  Supported types: type[space]TypeHere, pokefair, masterfair, f2p, mega, dynamax, ex.",
+    "description": "Searches the sync pair roster.  Supported types: type [type], pokefair, masterfair, f2p, mega, dynamax, ex," +
+        "hp [number], atk [number], def [number], spatk [number], spdef [number], speed [number].",
     "hasarguments": true,
     "alias": "searchsync",
     "execute": (msg, args) =>
@@ -137,9 +138,160 @@ module.exports = {
             });
             return output;
         }
+        else if(search_criteria === "hp")
+        {
+            if(splitter.length < 3)
+            {
+                return "You must provide a numeric value.";
+            }
+            let target = parseInt(splitter[2]);
+            if(target < 1)
+            {
+                return "The value must be greater than zero.";
+            }
+            let comma = "";
+            let syncpairs = msg.syncPairs.filter(user => parseInt(user.hp) >= target);
+            let output = "Search Results: " + syncpairs.size + "\n";
+            if(syncpairs.size === 0)
+            {
+                return "There are no results for the search terms.";
+            }
+            syncpairs.each(data =>
+            {
+                output += comma + data.nicename;
+                comma = ", ";
+            });
+            return output;
+        }
+        else if(search_criteria === "atk")
+        {
+            if(splitter.length < 3)
+            {
+                return "You must provide a numeric value.";
+            }
+            let target = parseInt(splitter[2]);
+            if(target < 1)
+            {
+                return "The value must be greater than zero.";
+            }
+            let comma = "";
+            let syncpairs = msg.syncPairs.filter(user => parseInt(user.atk) >= target);
+            let output = "Search Results: " + syncpairs.size + "\n";
+            if(syncpairs.size === 0)
+            {
+                return "There are no results for the search terms.";
+            }
+            syncpairs.each(data =>
+            {
+                output += comma + data.nicename;
+                comma = ", ";
+            });
+            return output;
+        }
+        else if(search_criteria === "def")
+        {
+            if(splitter.length < 3)
+            {
+                return "You must provide a numeric value.";
+            }
+            let target = parseInt(splitter[2]);
+            if(target < 1)
+            {
+                return "The value must be greater than zero.";
+            }
+            let comma = "";
+            let syncpairs = msg.syncPairs.filter(user => parseInt(user.def) >= target);
+            let output = "Search Results: " + syncpairs.size + "\n";
+            if(syncpairs.size === 0)
+            {
+                return "There are no results for the search terms.";
+            }
+            syncpairs.each(data =>
+            {
+                output += comma + data.nicename;
+                comma = ", ";
+            });
+            return output;
+        }
+        else if(search_criteria === "spatk")
+        {
+            if(splitter.length < 3)
+            {
+                return "You must provide a numeric value.";
+            }
+            let target = parseInt(splitter[2]);
+            if(target < 1)
+            {
+                return "The value must be greater than zero.";
+            }
+            let comma = "";
+            let syncpairs = msg.syncPairs.filter(user => parseInt(user.spatk) >= target);
+            let output = "Search Results: " + syncpairs.size + "\n";
+            if(syncpairs.size === 0)
+            {
+                return "There are no results for the search terms.";
+            }
+            syncpairs.each(data =>
+            {
+                output += comma + data.nicename;
+                comma = ", ";
+            });
+            return output;
+        }
+        else if(search_criteria === "spdef")
+        {
+            if(splitter.length < 3)
+            {
+                return "You must provide a numeric value.";
+            }
+            let target = parseInt(splitter[2]);
+            if(target < 1)
+            {
+                return "The value must be greater than zero.";
+            }
+            let comma = "";
+            let syncpairs = msg.syncPairs.filter(user => parseInt(user.spdef) >= target);
+            let output = "Search Results: " + syncpairs.size + "\n";
+            if(syncpairs.size === 0)
+            {
+                return "There are no results for the search terms.";
+            }
+            syncpairs.each(data =>
+            {
+                output += comma + data.nicename;
+                comma = ", ";
+            });
+            return output;
+        }
+        else if(search_criteria === "speed")
+        {
+            if(splitter.length < 3)
+            {
+                return "You must provide a numeric value.";
+            }
+            let target = parseInt(splitter[2]);
+            if(target < 1)
+            {
+                return "The value must be greater than zero.";
+            }
+            let comma = "";
+            let syncpairs = msg.syncPairs.filter(user => parseInt(user.speed) >= target);
+            let output = "Search Results: " + syncpairs.size + "\n";
+            if(syncpairs.size === 0)
+            {
+                return "There are no results for the search terms.";
+            }
+            syncpairs.each(data =>
+            {
+                output += comma + data.nicename;
+                comma = ", ";
+            });
+            return output;
+        }
         else
         {
-            return "The search type you are trying is not supported.  Supported filters: type[space]ThisType, pokefair, masterfair, f2p, mega, dynamax, ex. " +
+            return "The search type you are trying is not supported.  Supported filters: type [type], pokefair, masterfair, f2p, mega, dynamax, ex," +
+                " hp [number], atk [number], def [number], spatk [number], spdef [number], speed [number]. " +
                 "Note that if you use EX, the result will be DM'd regardless of if it was in a guild channel due to it being a lengthy result."
         }
     }
