@@ -1,5 +1,27 @@
 # pokemonmastersbot
-My Pokemon Masters Discord Bot
+This Disscord Bot is to help with the mobile app Pokemon Masters EX.  It has lots of information for sync pairs.  Egg sync pairs are not something I plan on adding because more often than not, there is a better sync pair for the task.  If someone wants to tackle that as a project they are welcome to, just create a new directory for egg sync pairs since it would be easier to keep them out of the general pool.
+
+## Commands
+
+The bot prefix is pm! and is currently not changeable at the guild level.  It is capable of responding to a DM that uses a command.
+
+Current commands:  
+- help: lists all commands you have access to
+- help [commandName]: Gives information about the command
+- view [name|pokemon]: Pulls up the information for the sync pair.
+- search [parameters]: Searches for all sync pairs matching the criteria.  Currently supports: type [TypeHere], ex, mega, dynamax, pokefair, masterfair, f2p.
+- getcookie [Lucky Skill]: States which lucky cookies can give you the desired skill.
+- contribute: Sends a link to this repository.
+- invite: Generates a link to invite the bot to your guild.
+- la [BOSS]: Display information about a particular Legendary Arena boss.
+- maxbp: States what the current maximum BP you can be at is.
+ 
+ Slash commands are not currently implemented.  I would like to make them at some point.
+ 
+ Future Commands:
+ - passive [Passive Name]: Displays what a passive skill does.
+ - setfc [Friend Code]: Store your friend code for the game.
+ - fc @[username]: Get the friend code of the mentioned user.
 
 ## Contributing
 The main thing I am going to want assistance with is sync pair data.  The easiest way to make them is to just copy the content from SyncPairs/ssred.json and put it
