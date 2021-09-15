@@ -9,7 +9,7 @@ Current commands:
 - help: lists all commands you have access to
 - help [commandName]: Gives information about the command
 - view [name|pokemon]: Pulls up the information for the sync pair.
-- search [parameters]: Searches for all sync pairs matching the criteria.  Currently supports: type [TypeHere], ex, mega, dynamax, pokefair, masterfair, f2p.
+- search [parameters]: Searches for all sync pairs matching the criteria.  Currently supports: type [TypeHere], ex, mega, dynamax, pokefair, masterfair, f2p, [statname] [value].
 - getcookie [Lucky Skill]: States which lucky cookies can give you the desired skill.
 - contribute: Sends a link to this repository.
 - invite: Generates a link to invite the bot to your guild.
