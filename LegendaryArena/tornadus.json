@@ -1,0 +1,10 @@
+{
+  "name": "tornadus",
+  "weakness": "Electric",
+  "hpbars": 3,
+  "hasallies": false,
+  "strategy": "Tornadus takes considerably less damage if it is not paralyzed.  When it is not paralyzed, you are unable to get critical hits against it.  Having a Pokemon that has Hostile Environment helps get the status condition.  Once it is paralyzed you can easily damage it.  Periodically it will heal itself of the status condition so you must be able to paralyze it multiple times in the fight.  You should be aware that it can use Toxic.",
+  "f2p": "Main Character And Pikachu, Hau, Professor Oak, BP Lt Surge, Erika, Skyla, Hop, Giovanni, Cyrus, Barry",
+  "best": "Volkner, N And Zekrom, Marnie, Elesa, Sygna Suit Elesa, Champion Iris, Leaf",
+  "video": "https://youtu.be/FVJzILtvYJs"
+}
