@@ -13,9 +13,14 @@ module.exports = {
             }
         });
         let discordid = msg.author.id;
-        if(msg.mentions.hasOwnProperty("members"))
+        try
         {
-            discordid = msg.mentions.members.first();
+            let member = msg.mentions.members.first();
+            discordid = member.id;
+        }
+        catch(Exception)
+        {
+            discordid = msg.author.id;
         }
         let sql = "SELECT * FROM friendcodes WHERE discordid = " + discordid;
         db.get(sql, [], (err, row) =>
