@@ -15,13 +15,14 @@ Current commands:
 - invite: Generates a link to invite the bot to your guild.
 - la [BOSS]: Display information about a particular Legendary Arena boss.
 - maxbp: States what the current maximum BP you can be at is.
+- setfc [Friend Code]: Store your friend code for the game.  Please use hypen for readability.
+- getfc @[username]: Get the friend code of the mentioned user. If no user is mentioned, returns the author's friend code.
  
  Slash commands are not currently implemented.  I would like to make them at some point.
  
  Future Commands:
  - passive [Passive Name]: Displays what a passive skill does.
- - setfc [Friend Code]: Store your friend code for the game.
- - fc @[username]: Get the friend code of the mentioned user.
+ 
 
 ## Contributing
 The main thing I am going to want assistance with is sync pair data.  The easiest way to make them is to just copy the content from SyncPairs/ssred.json and put it
