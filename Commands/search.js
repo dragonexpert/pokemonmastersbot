@@ -52,8 +52,11 @@ module.exports = {
             }
             syncpairs.each(data =>
             {
-                output += comma + data.nicename;
-                comma = ", ";
+                if(!data.alias.startsWith("mega"))
+                {
+                    output += comma + data.nicename;
+                    comma = ", ";
+                }
             });
             return output;
         }
@@ -68,8 +71,11 @@ module.exports = {
             }
             syncpairs.each(data =>
             {
-                output += comma + data.nicename;
-                comma = ", ";
+                if(!data.alias.startsWith("mega"))
+                {
+                    output += comma + data.nicename;
+                    comma = ", ";
+                }
             });
             return output;
         }
@@ -84,8 +90,11 @@ module.exports = {
             }
             syncpairs.each(data =>
             {
-                output += comma + data.nicename;
-                comma = ", ";
+                if(!data.alias.startsWith("mega"))
+                {
+                    output += comma + data.nicename;
+                    comma = ", ";
+                }
             });
             return output;
         }
@@ -100,8 +109,11 @@ module.exports = {
             }
             syncpairs.each(data =>
             {
-                output += comma + data.nicename;
-                comma = ", ";
+                if(!data.alias.startsWith("mega"))
+                {
+                    output += comma + data.nicename;
+                    comma = ", ";
+                }
             });
             msg.author.send(output, {split: true});
             return "The result has been sent via DM.";
@@ -117,8 +129,11 @@ module.exports = {
             }
             syncpairs.each(data =>
             {
-                output += comma + data.nicename;
-                comma = ", ";
+                if(!data.alias.startsWith("mega"))
+                {
+                    output += comma + data.nicename;
+                    comma = ", ";
+                }
             });
             return output;
         }
@@ -133,8 +148,31 @@ module.exports = {
             }
             syncpairs.each(data =>
             {
-                output += comma + data.nicename;
-                comma = ", ";
+                if(!data.alias.startsWith("mega"))
+                {
+                    output += comma + data.nicename;
+                    comma = ", ";
+                }
+            });
+            return output;
+        }
+        else if(search_criteria === "seasonal")
+        {
+            let comma = "";
+            let syncpairs = msg.syncPairs.filter(user => user.seasonal === true);
+            let output = "Search Results: " + syncpairs.size + "\n";
+            if(syncpairs.size === 0)
+            {
+                return "There are no results for the search terms.";
+            }
+            syncpairs.each(data =>
+            {
+                // Ignore megas for this
+                if(!data.alias.startsWith("mega"))
+                {
+                    output += comma + data.nicename;
+                    comma = ", ";
+                }
             });
             return output;
         }
