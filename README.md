@@ -27,6 +27,8 @@ Current commands:
 
 ## Contributing
 
+I am looking for a profile picture for the bot so it isn't the default symbol.  It must be creative commons or be created by you in which case you are granting the rights to use it.
+
 You can request features to be added to the bot.  Please create an issue for them.  I would eventually like to make it automatically update the bot in real time when a Pull Request on Github gets approved, but it will be something I'll have to figure out.
 
 Do not edit the file bp.json for any reason unless you are changing what the current event BP is.  The other fields use a timestamp so that it can be automatically calculated on the fly.
