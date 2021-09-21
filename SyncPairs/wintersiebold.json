@@ -20,5 +20,6 @@
   "ex": false,
   "f2p": false,
   "mega": false,
-  "dynamax": false
+  "dynamax": false,
+  "seasonal": true
 }
