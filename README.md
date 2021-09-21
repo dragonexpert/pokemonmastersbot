@@ -8,7 +8,7 @@ The bot prefix is pm! and is currently not changeable at the guild level.  It is
 Current commands:  
 - help: lists all commands you have access to
 - help [commandName]: Gives information about the command
-- view [name|pokemon]: Pulls up the information for the sync pair.
+- view [name|pokemon]: Pulls up the information for the sync pair.  Type mega before the Pokemon name to get the info for the mega evolution.
 - search [parameters]: Searches for all sync pairs matching the criteria.  Currently supports: type [TypeHere], ex, mega, dynamax, pokefair, masterfair, f2p, [statname] [value].
 - getcookie [Lucky Skill]: States which lucky cookies can give you the desired skill.
 - contribute: Sends a link to this repository.
