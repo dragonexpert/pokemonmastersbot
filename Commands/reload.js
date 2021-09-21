@@ -27,6 +27,7 @@ module.exports = {
                 const legendaryPair = require("../LegendaryArena/" + legendPairData[y]);
                 msg.legendaryArena.set(legendaryPair.name, legendaryPair);
             }
+            delete require.cache[require.resolve("../Passives/passives.json")];
         }
         catch (e)
         {
