@@ -109,6 +109,10 @@ if(msg.content.indexOf(bot_prefix) === 0)
         {
             message_content = commandInfo.execute(msg, Client);
         }
+        else if(commandInfo.name === "serverinfo")
+        {
+            message_content = commandInfo.execute(msg, Client);
+        }
         else
         {
             if(help === false)
