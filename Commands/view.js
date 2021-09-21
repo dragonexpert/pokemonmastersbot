@@ -63,6 +63,14 @@ module.exports = {
         {
             output += "This sync pair is obtained via story mode or an event.\n";
         }
+        // Must do it this way to avoid errors and warnings since this property only exists on select sync pairs
+        if(data.hasOwnProperty("seasonal"))
+        {
+            if(data.seasonal === true)
+            {
+                output += "This sync pair is a seasonal sync pair.\n";
+            }
+        }
         output += "Collective Strength: " + module.exports.calculate_strength(data);
 
         // Determine if it is a 3*, 4*, or 5* and calculate max stats.
