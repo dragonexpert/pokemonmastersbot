@@ -17,6 +17,7 @@ Current commands:
 - maxbp: States what the current maximum BP you can be at is.
 - setfc [Friend Code]: Store your friend code for the game.  Please use hypen for readability.
 - getfc @[username]: Get the friend code of the mentioned user. If no user is mentioned, returns the author's friend code.
+- nextreset: States how long until the next reset.
  
  Slash commands are not currently implemented.  I would like to make them at some point.
  
