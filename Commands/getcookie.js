@@ -21,7 +21,9 @@ module.exports = {
             let comma = "";
             // Fix a common mistake
             searchterm = searchterm.replace("Trouble Maker", "Troublemaker");
+            searchterm = searchterm.replace(/tm\s/i, "Troublemaker ");
             searchterm = searchterm.replace(/cs\s/i, "Critical Strike ");
+            searchterm = searchterm.replace(/lc\s/i, "Lessen Confusion ");
             if(myArray.crunchy1.includes(searchterm))
             {
                 results += comma + "Crunchy Bronze";
