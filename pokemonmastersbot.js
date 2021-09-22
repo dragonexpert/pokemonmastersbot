@@ -29,13 +29,14 @@ let bot_prefix = Config.bot_prefix;
 if(msg.content.indexOf(bot_prefix) === 0)
 {
     // It is a command
+    let auth = 1;
     let message = msg.content.substr(bot_prefix.length);
-    let auth = getAuth(msg);
     let message_parts = message.split(" ");
     let command = message_parts[0];
     let help = false;
     if(message.toLowerCase() === "help")
     {
+        auth = getAuth(msg);
         // Retrieve a list of commands.
         let commands = "Commands available: ";
         let comma = "";
@@ -80,6 +81,10 @@ if(msg.content.indexOf(bot_prefix) === 0)
         // Do not override with help because users shouldn't get to see command info they aren't allowed.
         if(commandInfo.hasOwnProperty("auth"))
         {
+            if(commandInfo.auth > 1)
+            {
+                auth = getAuth(msg);
+            }
             if(commandInfo.auth > auth)
             {
                 return "You do not have permission to use this command.";
@@ -88,7 +93,7 @@ if(msg.content.indexOf(bot_prefix) === 0)
         let y = 0, arguments = "", space = "";
         for(x in message_parts)
         {
-            if(x !== 0)
+            if(x !== "0")
             {
                 arguments += space + message_parts[x];
                 if (y < 1)
@@ -110,6 +115,10 @@ if(msg.content.indexOf(bot_prefix) === 0)
             message_content = commandInfo.execute(msg, Client);
         }
         else if(commandInfo.name === "serverinfo")
+        {
+            message_content = commandInfo.execute(msg, Client);
+        }
+        else if(commandInfo.name === "leaveguild")
         {
             message_content = commandInfo.execute(msg, Client);
         }
@@ -143,10 +152,32 @@ if(msg.content.indexOf(bot_prefix) === 0)
 
 function getAuth(msg)
 {
-    if(msg.author.id == Config.bot_owner)
+    if(parseInt(msg.author.id) === parseInt(Config.bot_owner))
     {
-        return 5;
+        return 10;
     }
-    // Todo implement moderators
-    return 1;
+    try
+    {
+        const myAuth = require("./auth.json");
+        delete require.cache[require.resolve("./auth.json")];
+        if (myAuth.moderator.includes(msg.author.id))
+        {
+            return 3;
+        }
+        if (myAuth.admin.includes(msg.author.id))
+        {
+            return 4;
+        }
+        if (myAuth.owner.includes(msg.author.id))
+        {
+            return 5;
+        }
+        return 1;
+    }
+    catch (Exception)
+    {
+        console.error(Exception);
+        // Return a 1 if it fails because it is better to not let a user have access to a command they might not have permission to use.
+        return 1;
+    }
 }
