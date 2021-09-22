@@ -25,7 +25,8 @@ Current commands:
  Slash commands are not currently implemented.  I would like to make them at some point.
  
  Future Commands:
- 
+ - maxex: States what the maximum number of EX Sync Pairs you can have at the current time.
+ - maxgear [stars] [current_level]: States how many of each upgrade item is necessary to max the gear.  
 
 ## Contributing
 
@@ -39,3 +40,6 @@ If you would like to donate to help support the bot please message Latios#2778 o
 
 ## Bot Auth
 Do not ask to gain auth so you can use certain commands.  Auth will be given on an as-needed basis.  Most of the auth commands are used to modify the bot data and are not specific to a guild.  There are plenty of other bots to handle moderation issues.
+
+## Invite The Bot
+You can invite the bot to your guild by following this link: https://discord.com/api/oauth2/authorize?client_id=881659182942670878&scope=bot+applications.commands&permissions=105226701824
