@@ -28,9 +28,11 @@ module.exports = {
                 msg.legendaryArena.set(legendaryPair.name, legendaryPair);
             }
             delete require.cache[require.resolve("../Passives/passives.json")];
+            const passives = require("../Passives/passives.json");
         }
         catch (e)
         {
+            console.error(e);
             return "There was an error reloading the sync pairs.";
         }
         return "The sync pair roster has been updated.";
