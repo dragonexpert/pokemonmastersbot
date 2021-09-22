@@ -19,6 +19,7 @@ Current commands:
 - getfc @[username]: Get the friend code of the mentioned user. If no user is mentioned, returns the author's friend code.
 - nextreset: States how long until the next reset.
 - getgear [gear type]: States which stages have the selected gear type in them.
+- exstage [ex_stage]: Lists what types of gear drops from the selected stage.
  
  Slash commands are not currently implemented.  I would like to make them at some point.
  
