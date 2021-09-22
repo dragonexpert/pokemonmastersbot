@@ -18,6 +18,7 @@ Current commands:
 - setfc [Friend Code]: Store your friend code for the game.  Please use hypen for readability.
 - getfc @[username]: Get the friend code of the mentioned user. If no user is mentioned, returns the author's friend code.
 - nextreset: States how long until the next reset.
+- getgear [gear type]: States which stages have the selected gear type in them.
  
  Slash commands are not currently implemented.  I would like to make them at some point.
  
