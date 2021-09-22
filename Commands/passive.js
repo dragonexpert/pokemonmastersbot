@@ -1,4 +1,3 @@
-const passives = require("../Passives/passives.json");
 module.exports = {
     "name": "passive",
     "description": "View information about a passive skill",
@@ -6,6 +5,8 @@ module.exports = {
     "alias": "skill",
     "execute": (msg, args) =>
     {
+        const passives = require("../Passives/passives.json");
+        delete require.cache[require.resolve("../Passives/passives.json")];
         let splitter = msg.content.split(" ");
         let originalskill = "";
         // This gets rid of all the nasty spaces.
