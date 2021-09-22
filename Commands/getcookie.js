@@ -1,5 +1,3 @@
-const myArray = require("../Passives/cookies.json");
-
 module.exports = {
     "name": "getcookie",
     "description": "View what cookie gives the desired skill",
@@ -7,12 +5,23 @@ module.exports = {
     "alias": "findskill",
     "execute": (msg, args) =>
     {
+        const myArray = require("../Passives/cookies.json");
+        delete require.cache[require.resolve("../Passives/cookies.json")];
         try
         {
-            let searchterm = args.substring(10);
+            let searchterm = "";
+            let splitter = args.split(" ");
+            let space = "";
+            for(x in splitter)
+            {
+                searchterm += space + splitter[x].substring(0, 1).toUpperCase() + splitter[x].substring(1).toLowerCase();
+                space = " ";
+            }
             let results = "";
             let comma = "";
-
+            // Fix a common mistake
+            searchterm = searchterm.replace("Trouble Maker", "Troublemaker");
+            searchterm = searchterm.replace(/cs\s/i, "Critical Strike ");
             if(myArray.crunchy1.includes(searchterm))
             {
                 results += comma + "Crunchy Bronze";
