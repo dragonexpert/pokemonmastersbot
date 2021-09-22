@@ -20,11 +20,11 @@ Current commands:
 - nextreset: States how long until the next reset.
 - getgear [gear type]: States which stages have the selected gear type in them.
 - exstage [ex_stage]: Lists what types of gear drops from the selected stage.
+- passive [Passive Name]: Displays what a passive skill does. ( Some passives are not yet added. )
  
  Slash commands are not currently implemented.  I would like to make them at some point.
  
  Future Commands:
- - passive [Passive Name]: Displays what a passive skill does.
  
 
 ## Contributing
