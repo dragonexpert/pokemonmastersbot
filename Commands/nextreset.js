@@ -11,6 +11,10 @@ module.exports = {
         {
             hours = 24 - hours;
         }
+        if(hours > 24)
+        {
+            hours -= 24;
+        }
         let minutes = 60 - current_time.getMinutes();
         let seconds = 60 - current_time.getSeconds();
         let message = "";
