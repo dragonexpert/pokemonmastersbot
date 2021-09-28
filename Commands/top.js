@@ -59,7 +59,7 @@ module.exports = {
             {
                 return message;
             }
-            message += module.exports.format_output(data, splitter[1], y);
+            message += module.exports.format_output(data, splitter[1].toLowerCase(), y);
             ++y;
         });
         return message;
