@@ -483,5 +483,8 @@
   "teamalertmind": "Raises the Defense of all allied sync pairs by 1 stat rank when the user's HP drops to half or below.",
   "groupmoralsupport": "Has a chance of raising the Sp. Def of all allied sync pairs by one stat rank when the user's Trainer uses a move.",
   "rockshift": "Normal-type moves become Rock-type moves.",
-  "combofreebie": "Has a chance of applying the Free Move Next effect to the user when its attack move is successful."
+  "combofreebie": "Has a chance of applying the Free Move Next effect to the user when its attack move is successful.",
+  "charginginfliction": "Charges the user's move gauge by X when the Pokemon uses a status move.",
+  "openingblockade": "Applies the Physical Damage Reduction effect and the Special Damage Reduction effect to the allied field of play the first time the user enters a battle each battle.",
+  "searingquickcombo": "Restores one MP for the user's moves with a quick move effect tag when its attack move is successful while the target is burned."
 }
