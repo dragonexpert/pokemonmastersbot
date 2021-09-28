@@ -11,8 +11,10 @@ module.exports = {
     {
         let syncPairData = fs.readdirSync("SyncPairs").filter(file => file.endsWith(".json"));
         let legendPairData = fs.readdirSync("LegendaryArena").filter(file => file.endsWith(".json"));
+        let eventData = fs.readdirSync("Events").filter(file => file.endsWith(".json"));
         msg.syncPairs = new Discord.Collection();
         msg.legendaryArena = new Discord.Collection();
+        msg.eventData = new Discord.Collection();
         try
         {
             for (x in syncPairData)
@@ -26,6 +28,12 @@ module.exports = {
                 delete require.cache[require.resolve("../LegendaryArena/" + legendPairData[y])];
                 const legendaryPair = require("../LegendaryArena/" + legendPairData[y]);
                 msg.legendaryArena.set(legendaryPair.name, legendaryPair);
+            }
+            for(z in eventData)
+            {
+                delete require.cache[require.resolve("../Events/" + eventData[z])];
+                const event = require("../Events/" + eventData[z]);
+                msg.eventData.set(event.name, event);
             }
             delete require.cache[require.resolve("../Passives/passives.json")];
             const passives = require("../Passives/passives.json");
