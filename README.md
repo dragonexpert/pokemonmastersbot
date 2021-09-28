@@ -34,6 +34,10 @@ The bot prefix is **pm!** and is currently not changeable at the guild level. It
 - **exstage** [ex_stage]: Lists what types of gear drops from the selected stage.
 
 - **passive** [Passive Name]: Displays what a passive skill does.
+
+- **events**: Lists current and upcoming events.  Includes datamined events.
+
+- **top** [hp|atk|def|spatk|spdef|speed]: Lists the top 10 sync pairs with that stat and the stat value.
  
 > Slash commands are not currently implemented. I would like to make them at some point.
  
