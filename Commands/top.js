@@ -38,7 +38,7 @@ module.exports = {
                 msg.syncPairs.sort(module.exports.sort_collection_atk);
                 break;
             case "def":
-                msg.syncPairs.sort(module.exports.sort_collection_def());
+                msg.syncPairs.sort(module.exports.sort_collection_def);
                 break;
             case "spatk":
                 msg.syncPairs.sort(module.exports.sort_collection_spatk);
