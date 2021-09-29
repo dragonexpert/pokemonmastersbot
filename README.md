@@ -38,6 +38,8 @@ The bot prefix is **pm!** and is currently not changeable at the guild level. It
 - **events**: Lists current and upcoming events.  Includes datamined events.
 
 - **top** [hp|atk|def|spatk|spdef|speed]: Lists the top 10 sync pairs with that stat and the stat value.
+
+- **maxex**: States what the maximum number of EX Sync Pairs a player can have.
  
 > Slash commands are not currently implemented. I would like to make them at some point.
  
