@@ -26,7 +26,7 @@ Client.login(Config.bot_token);
 
 Client.on('messageCreate', msg => {
 let bot_prefix = Config.bot_prefix;
-if(msg.content.indexOf(bot_prefix) === 0)
+if(msg.content.toLowerCase().indexOf(bot_prefix) === 0)
 {
     // It is a command
     let auth = 1;
