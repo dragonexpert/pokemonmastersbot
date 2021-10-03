@@ -32,6 +32,6 @@ module.exports = {
 
         let event_total = BPDATA.event;
         let maxbp = daily_total + weekly_total + event_total;
-        return "The maximum BP so far is " + maxbp + ".";
+        return "The maximum BP so far is " +  Intl.NumberFormat("en-US").format(maxbp) + ".";
     }
 }
