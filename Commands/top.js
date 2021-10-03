@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
 const fs = require("fs");
-
 module.exports = {
     "name": "top",
     "description": "Displays the top 10 sync pairs for the given stat",
@@ -69,7 +68,7 @@ module.exports = {
         let output = "\n" + y + ") " + data.nicename + ": ";
         if(stat === "hp")
         {
-            output += data.hp;
+            output += Intl.NumberFormat("en-US").format(data.hp);
         }
         else if(stat === "atk")
         {
