@@ -1,0 +1,10 @@
+{
+  "name": "entei",
+  "weakness": "Water",
+  "hpbars": 3,
+  "hasallies": false,
+  "strategy": "Entei focuses on raising its defense in HP bar 1.  The longer you are in this bar, the harder it will be to damage Entei with physical attacks.  He may also trap one of your sync pairs with Fire Spin.  At times Entei will use Eruption which damages based on its remaining hp.  After a bar is depleted, Entei will always use a move that targets all of your team so if you have a Wide Guard user, make sure to prepare for it.  Entei will get increased critical stat at various points in the fight.  During HP bar 2, Entei will also increase its special defense when it attacks. The final Bar Entei will make the sun appear at a certain point.  Be aware of that if you plan on sync nuking with May and Swampert.  Entei gains the passive Hostile Environment 10 which means your sync pairs will get burned if they are hit by Heat Wave or Flamethrower.  Fight hard to get through this bar because Entei hits really hard at this point.  You may find having a user that can block status conditions helpful.",
+  "f2p": "Misty & Starmie, Misty & Psyduck, Barry, Professor Sycamore, Giovanni",
+  "best": "Classic Red, Sygna Suit Red, Classic Blue, Sygna Suit Blue, Leaf, Sygna Suit Leaf, Lana, Archie, May, Sygna Suit Grimsley, Hilbert",
+  "video": "https://youtu.be/WUHn_8S76lc"
+}
