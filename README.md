@@ -11,7 +11,7 @@ The bot prefix is **pm!** and is currently not changeable at the guild level. It
 
 - **view** [name | pokemon]: Pulls up the information for the sync pair.  Type mega before the Pokemon name to get the info for the mega evolution.
 
-- **search** [parameters]: Searches for all sync pairs matching the criteria.  Currently supports: type [TypeHere], ex, mega, dynamax, seasonal, pokefair, masterfair, f2p, [statname] [value].  Supports a second filter as long as the first filter is type.
+- **search** [parameters]: Searches for all sync pairs matching the criteria.  Currently supports: type [TypeHere], ex, mega, dynamax, seasonal, pokefair, masterfair, f2p, [statname] [value], move [move_name], passive [passive_name].  Supports a second filter as long as the first filter is type.
 
 - **getcookie** [Lucky Skill]: States which lucky cookies can give you the desired skill.
 

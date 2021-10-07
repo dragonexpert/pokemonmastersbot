@@ -4,7 +4,7 @@ const fs = require("fs");
 module.exports = {
     "name": "search",
     "description": "Searches the sync pair roster.  Supported types: type [type], pokefair, masterfair, f2p, mega, dynamax, ex," +
-        "hp [number], atk [number], def [number], spatk [number], spdef [number], speed [number].",
+        "hp [number], atk [number], def [number], spatk [number], spdef [number], speed [number], move [move_name], passive [passive_name].",
     "hasarguments": true,
     "alias": "searchsync",
     "execute": (msg, args) =>
@@ -417,11 +417,69 @@ module.exports = {
             });
             return output;
         }
+        else if(search_criteria === "move")
+        {
+            if(splitter.length < 3)
+            {
+                return "You must provide the name of the move.";
+            }
+            let term = args.replace("move ", "");
+            let keyword = "";
+            let separator = term.split(" ");
+            let space = "";
+            for(z in separator)
+            {
+                keyword += space + separator[z].substring(0, 1).toUpperCase() + separator[z].substring(1).toLowerCase();
+                space = " ";
+            }
+            let syncpairs = msg.syncPairs.filter(user => user.moves.includes(keyword));
+            let output = "Search Results: " + syncpairs.size + "\n";
+            if(syncpairs.size === 0)
+            {
+                return "There are no results for the search term: " + term;
+            }
+            let comma = "";
+            syncpairs.each(data =>
+            {
+                output += comma + data.nicename;
+                comma = ", ";
+            });
+            return output;
+        }
+        else if(search_criteria === "passive")
+        {
+            if(splitter.length < 3)
+            {
+                return "You must provide the name of the passive.";
+            }
+            let term = args.replace("passive ", "");
+            let keyword = "";
+            let separator = term.split(" ");
+            let space = "";
+            for(z in separator)
+            {
+                keyword += space + separator[z].substring(0, 1).toUpperCase() + separator[z].substring(1).toLowerCase();
+                space = " ";
+            }
+            let syncpairs = msg.syncPairs.filter(user => user.passives.includes(keyword));
+            let output = "Search Results: " + syncpairs.size + "\n";
+            if(syncpairs.size === 0)
+            {
+                return "There are no results for the search terms: " + term;
+            }
+            let comma = "";
+            syncpairs.each(data =>
+            {
+                output += comma + data.nicename;
+                comma = ", ";
+            });
+            return output;
+        }
         else
         {
             return "The search type you are trying is not supported.  Supported filters: type [type], pokefair, masterfair, f2p, mega, dynamax, ex," +
-                " hp [number], atk [number], def [number], spatk [number], spdef [number], speed [number]. " +
-                "Note that if you use EX, the result will be DM'd regardless of if it was in a guild channel due to it being a lengthy result."
+                " hp [number], atk [number], def [number], spatk [number], spdef [number], speed [number], move [move_name], passive [passive_name]. " +
+                "Note that if you use EX as the sole filter, the result will be DM'd regardless of if it was in a guild channel due to it being a lengthy result."
         }
     }
 }
