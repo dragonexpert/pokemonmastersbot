@@ -40,6 +40,8 @@ The bot prefix is **pm!** and is currently not changeable at the guild level. It
 - **top** [hp|atk|def|spatk|spdef|speed]: Lists the top 10 sync pairs with that stat and the stat value.
 
 - **maxex**: States what the maximum number of EX Sync Pairs a player can have.
+
+- **maxstrength**: States what the current maximum collective strength is.  Includes datamined sync pairs.  It also makes all eggs as 5*, 20/20, and max affinity.
  
 > Slash commands are not currently implemented. I would like to make them at some point.
  
