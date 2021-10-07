@@ -1,5 +1,5 @@
 # Pokemon Masters Bot
-This Discord Bot is to help with the mobile app Pokemon Masters EX. It has lots of information for sync pairs. Egg sync pairs are not something I plan on adding because more often than not, there is a better sync pair for the task.  If someone wants to tackle that as a project they are welcome to, just create a new directory for egg sync pairs since it would be easier to keep them out of the general pool.
+This Discord Bot is to help with the mobile app Pokemon Masters EX. It has lots of information for sync pairs. Egg sync pairs are not a priority because more often than not, there is a better sync pair for the task.  If someone wants to tackle that as a project they are welcome to, just create a new directory for egg sync pairs since it would be easier to keep them out of the general pool.
 
 ## Commands
 
