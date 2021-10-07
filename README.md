@@ -44,7 +44,6 @@ The bot prefix is **pm!** and is currently not changeable at the guild level. It
 > Slash commands are not currently implemented. I would like to make them at some point.
  
 ### Future Commands:
- - **maxex**: States what the maximum number of EX Sync Pairs you can have at the current time.
  - **maxgear** [stars] [current_level]: States how many of each upgrade item is necessary to max the gear.  
 
 ## Contributing
