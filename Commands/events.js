@@ -21,9 +21,13 @@ module.exports = {
             msg.eventData.set(event.name, event);
         }
         msg.eventData.sort(module.exports.sort_collection);
+        let current_time = Date.now() / 1000;
         msg.eventData.each( data => {
             message += module.exports.format_output(data, y);
-            ++y;
+            if(data.eventend > current_time)
+            {
+                ++y;
+            }
         })
 
         return message;
