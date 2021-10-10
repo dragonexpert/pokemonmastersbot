@@ -1,4 +1,6 @@
 const Discord = require("discord.js");
+const fs = require("fs");
+
 module.exports = {
     "name": "move",
     "description": "View a move",
@@ -33,7 +35,27 @@ module.exports = {
                 return "No data found for move: '" + args + "'";
             }
         }
-        return module.exports.format_output(moveinfo);
+        let syncPairData = fs.readdirSync("SyncPairs").filter(file => file.endsWith(".json"));
+        msg.syncPairs = new Discord.Collection();
+        for (x in syncPairData)
+        {
+            const syncpair = require("../SyncPairs/" + syncPairData[x]);
+            msg.syncPairs.set(syncpair.name, syncpair);
+        }
+        let syncpairs = msg.syncPairs.filter(user => user.moves.includes(keyword));
+        if(syncpairs.size === 0)
+        {
+            return "There are no sync pairs that can learn this move.";
+        }
+        let output = "The following sync pairs can learn this move: ";
+        let comma = "";
+        syncpairs.each(data =>
+        {
+            output += comma + data.nicename;
+            comma = ", ";
+        });
+        let move_output = module.exports.format_output(moveinfo);
+        return move_output + "\n" + output;
     },
     "format_output": (data) =>
     {
