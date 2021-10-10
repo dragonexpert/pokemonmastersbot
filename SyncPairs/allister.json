@@ -21,5 +21,7 @@
   "ex": true,
   "f2p": false,
   "mega": false,
-  "dynamax": true
+  "dynamax": true,
+  "region": "galar",
+  "trainerclass": "gym leader"
 }

@@ -21,5 +21,7 @@
   "ex": false,
   "f2p": false,
   "mega": true,
-  "dynamax": false
+  "dynamax": false,
+  "region": "kanto",
+  "trainerclass": "elite 4"
 }
