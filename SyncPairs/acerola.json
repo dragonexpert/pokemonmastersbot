@@ -20,5 +20,7 @@
   "ex": false,
   "f2p": true,
   "mega": false,
-  "dynamax": false
+  "dynamax": false,
+  "region": "alola",
+  "trainerclass": "elite 4"
 }

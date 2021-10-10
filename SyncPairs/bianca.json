@@ -20,5 +20,7 @@
   "ex": true,
   "f2p": false,
   "mega": false,
-  "dynamax": false
+  "dynamax": false,
+  "region": "unova",
+  "trainerclass": "rival"
 }

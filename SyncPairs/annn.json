@@ -21,5 +21,7 @@
   "f2p": false,
   "mega": false,
   "dynamax": false,
-  "seasonal": true
+  "seasonal": true,
+  "region": "unova",
+  "trainerclass": "rival"
 }
