@@ -73,6 +73,16 @@ module.exports = {
             console.error(Exception);
             msg.channel.send("There was an error reloading the passives cache.\n" + Exception);
         }
+        try
+        {
+            delete require.cache[require.resolve("../Moves/moves.json")];
+            const movedata = require("../Moves/moves.json");
+        }
+        catch (Exception)
+        {
+            console.error(Exception);
+            msg.channel.send("There was an error reloading the move cache.\n" + Exception);
+        }
         return "Finished reloading all caches.";
     }
 }
