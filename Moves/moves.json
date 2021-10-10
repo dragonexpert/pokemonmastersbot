@@ -1,1 +1,2542 @@
-
+ [
+   {
+   "name": "Absorb",
+   "type": "Grass-type",
+   "category": "Special",
+   "power": "19-22",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Restores the user's HP based on the amount of damage dealt to the target."
+ },
+ {
+   "name": "Accelerock",
+   "type": "Rock-type",
+   "category": "Physical",
+   "power": "75-90",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Acid",
+   "type": "Poison-type",
+   "category": "Special",
+   "power": "19-22",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "All opponents",
+   "description": "Has a very small chance of lowering the target's Sp. Def."
+ },
+ {
+   "name": "Aerial Ace",
+   "type": "Flying-type",
+   "category": "Physical",
+   "power": "45-54",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Never misses"
+ },
+ {
+   "name": "Air Cutter",
+   "type": "Flying-type",
+   "category": "Special",
+   "power": "43-51",
+   "accuracy": 95,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "Critical hits land more easily"
+ },
+ {
+   "name": "Air Slash",
+   "type": "Flying-type",
+   "category": "Special",
+   "power": "45-54",
+   "accuracy": 95,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a moderate chance of making the target flinch"
+ },
+ {
+   "name": "Ancient Power",
+   "type": "Rock-type",
+   "category": "Special",
+   "power": "47-56",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of raising hte user's Attack Defense Speed Sp. Atk and Sp. Def"
+ },
+ {
+   "name": "Aqua Jet",
+   "type": "Water-type",
+   "category": "Physical",
+   "power": "75-90",
+   "accuracy": null,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Aqua Tail",
+   "type": "Water-type",
+   "category": "Physical",
+   "power": "56-67",
+   "accuracy": 90,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Astonish",
+   "type": "Ghost-type",
+   "category": "Physical",
+   "power": "12-14",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Has a moderate chance of making the target flinch"
+ },
+ {
+   "name": "Aura Sphere",
+   "type": "Fighting-type",
+   "category": "Special",
+   "power": "45-54",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Never misses"
+ },
+ {
+   "name": "Avalanche",
+   "type": "Ice-type",
+   "category": "Physical",
+   "power": "75-90",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "The user gets ready to counterattack. Using this move again will cause the user to attack the target. No other actions can be taken while ready to counterattack. If the user is attacked while ready to counterattack the user then attacks the target with double that power"
+ },
+ {
+   "name": "Beak Blast",
+   "type": "Flying-type",
+   "category": "Physical",
+   "power": "75-90",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "The user gets ready to counterattack. Using this move again will cause the user to attack the target. No other actions can be taken while ready to counterattack. The user will attack if attacked while ready to counterattack. Leaves opponents burned when they use physical attacks on the user while it is ready to counterattack"
+ },
+ {
+   "name": "Bite",
+   "type": "Dark-type",
+   "category": "Physical",
+   "power": "42-50",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a moderate chance of making the target flinch"
+ },
+ {
+   "name": "Blast Burn",
+   "type": "Fire-type",
+   "category": "Special",
+   "power": "178-213",
+   "accuracy": 90,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Blizzard",
+   "type": "Ice-type",
+   "category": "Special",
+   "power": "126-151",
+   "accuracy": 70,
+   "move_slots": "3",
+   "target": "All opponents",
+   "description": "Never misses during a hailstorm. Has a very small chance of leaving the target frozen"
+ },
+ {
+   "name": "Body Slam",
+   "type": "Normal-type",
+   "category": "Physical",
+   "power": "53-63",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a moderate chance of leaving the target paralyzed."
+ },
+ {
+   "name": "Brick Break",
+   "type": "Fighting-type",
+   "category": "Physical",
+   "power": "35-42",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Removes physical and special damage-reducing effects from the opponents' field of play"
+ },
+ {
+   "name": "Brine",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "38-45",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Its power is doubled if the target's HP is at half or below."
+ },
+ {
+   "name": "Bubble",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "19-22",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "All opponents",
+   "description": "Has a very small chance of lowering the target's Speed"
+ },
+ {
+   "name": "Bubble Beam",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "49-58",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of lowering the target's Speed"
+ },
+ {
+   "name": "Bug Buzz",
+   "type": "Bug-type",
+   "category": "Special",
+   "power": "99-",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a very small chance of lowering the target's Sp. Def."
+ },
+ {
+   "name": "Bulldoze",
+   "type": "Ground-type",
+   "category": "Physical",
+   "power": "80-96",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "All opponents",
+   "description": "Lowers the target's Speed"
+ },
+ {
+   "name": "Bullet Punch",
+   "type": "Steel-type",
+   "category": "Physical",
+   "power": "75-90",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Bullet Seed",
+   "type": "Grass-type",
+   "category": "Physical",
+   "power": "15-18",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Attacks the target two to five times in a row"
+ },
+ {
+   "name": "Charm",
+   "type": "Fairy-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Sharply lowers the target's Attack"
+ },
+ {
+   "name": "Clanging Scales",
+   "type": "Dragon-type",
+   "category": "Special",
+   "power": "176-211",
+   "accuracy": 100,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "Lowers the user's Defense"
+ },
+ {
+   "name": "Close Combat",
+   "type": "Fighting-type",
+   "category": "Physical",
+   "power": "124-148",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Lowers the user's Defense and Sp. Def"
+ },
+ {
+   "name": "Confuse Ray",
+   "type": "Ghost-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Leaves the target confused"
+ },
+ {
+   "name": "Confusion",
+   "type": "Psychic-type",
+   "category": "Special",
+   "power": "18-21",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Has a very small chance of leaving the target confused"
+ },
+ {
+   "name": "Cross Chop",
+   "type": "Fighting-type",
+   "category": "Physical",
+   "power": "100-120",
+   "accuracy": 80,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Critical hits land more easily"
+ },
+ {
+   "name": "Cross Poison",
+   "type": "Poison-type",
+   "category": "Physical",
+   "power": "38-45",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Critical hits land more easily. Has a very small chance of leaving the target poisoned."
+ },
+ {
+   "name": "Crunch",
+   "type": "Dark-type",
+   "category": "Physical",
+   "power": "99-118",
+   "accuracy": null,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a small chance of lowering the target's Defense"
+ },
+ {
+   "name": "Crush Claw",
+   "type": "Normal-type",
+   "category": "Physical",
+   "power": "63-75",
+   "accuracy": 95,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a good chance of lowering the target's Defense."
+ },
+ {
+   "name": "Dark Pulse",
+   "type": "Dark-type",
+   "category": "Special",
+   "power": "95-114",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a small chance of making the target flinch"
+ },
+ {
+   "name": "Dazzling Gleam",
+   "type": "Fairy-type",
+   "category": "Special",
+   "power": "50-60",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Defog",
+   "type": "Flying-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Clears the entire field of terrain effects. Clears all field effects from the opponents’ field of play. Lowers the target’s evasiveness."
+ },
+ {
+   "name": "Disarming Voice",
+   "type": "Fairy-type",
+   "category": "Special",
+   "power": "45-54",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "Never Misses"
+ },
+ {
+   "name": "Discharge",
+   "type": "Electric-type",
+   "category": "Special",
+   "power": "92-110",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "All opponents",
+   "description": "Has a moderate chance of leaving the target paralyzed."
+ },
+ {
+   "name": "Double-Edge",
+   "type": "Normal-type",
+   "category": "Physical",
+   "power": "167-200",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "The user also takes 25% of the damage it dealt to the target"
+ },
+ {
+   "name": "Draco Meteor",
+   "type": "Dragon-type",
+   "category": "Special",
+   "power": "136-163",
+   "accuracy": 90,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Sharply lowers the user's Sp. Atk"
+ },
+ {
+   "name": "Dragon Breath",
+   "type": "Dragon-type",
+   "category": "Special",
+   "power": "42-50",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a moderate chance of leaving the target paralyzed."
+ },
+ {
+   "name": "Dragon Claw",
+   "type": "Dragon-type",
+   "category": "Physical",
+   "power": "50-60",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Dragon Pulse",
+   "type": "Dragon-type",
+   "category": "Special",
+   "power": "100-120",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Drain Punch",
+   "type": "Fighting-type",
+   "category": "Physical",
+   "power": "91-109",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Restores the user's HP based on the amount of damage dealt to the target."
+ },
+ {
+   "name": "Draining Kiss",
+   "type": "Fairy-type",
+   "category": "Special",
+   "power": "46-55",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Restores the user's HP based on amount of damage dealt to the target."
+ },
+ {
+   "name": "Drill Peck",
+   "type": "Flying-type",
+   "category": "Physical",
+   "power": "100-120",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Earthquake",
+   "type": "Ground-type",
+   "category": "Physical",
+   "power": "100-120",
+   "accuracy": null,
+   "move_slots": "3",
+   "target": "All opponents",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Eerie Impulse",
+   "type": "Electric-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Sharply lowers the target's Sp. Atk"
+ },
+ {
+   "name": "Electric Terrain",
+   "type": "Electric-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Field",
+   "description": "Turns the field into Electric Terrain"
+ },
+ {
+   "name": "Electroweb",
+   "type": "Electric-type",
+   "category": "Special",
+   "power": "39-",
+   "accuracy": 95,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "Lowers the target's Speed"
+ },
+ {
+   "name": "Ember",
+   "type": "Fire-type",
+   "category": "Special",
+   "power": "17-20",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Has a very small chance of leaving the target burned."
+ },
+ {
+   "name": "Energy Ball",
+   "type": "Grass-type",
+   "category": "Special",
+   "power": "49-58",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of lowering the target's Sp. Def"
+ },
+ {
+   "name": "Eruption",
+   "type": "Fire-type",
+   "category": "Special",
+   "power": "162-",
+   "accuracy": null,
+   "move_slots": "3",
+   "target": "All opponents",
+   "description": "The lower the user's HP is the lower the power of this move becomes."
+ },
+ {
+   "name": "Facade",
+   "type": "Normal-type",
+   "category": "Physical",
+   "power": "47-56",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Its power is doubled when the user is poisoned badly poisoned paralyzed or burned. Ignores lowered Attack from burns."
+ },
+ {
+   "name": "Fell Stinger",
+   "type": "Bug-type",
+   "category": "Physical",
+   "power": "44-52",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Drastically raises the user's Attack when it knocks out a target with this move."
+ },
+ {
+   "name": "Fire Blast",
+   "type": "Fire-type",
+   "category": "Special",
+   "power": "116-139",
+   "accuracy": 85,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a very small chance of leaving the target burned."
+ },
+ {
+   "name": "Fire Fang",
+   "type": "Fire-type",
+   "category": "Physical",
+   "power": "47-56",
+   "accuracy": 95,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of making the target flinch. Has a very small chance of leaving the target burned."
+ },
+ {
+   "name": "Fire Punch",
+   "type": "Fire-type",
+   "category": "Physical",
+   "power": "47-56",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of leaving the target burned."
+ },
+ {
+   "name": "Fire Spin",
+   "type": "Fire-type",
+   "category": "Special",
+   "power": "38-45",
+   "accuracy": 85,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Leaves the target trapped"
+ },
+ {
+   "name": "First Impression",
+   "type": "Bug-type",
+   "category": "Physical",
+   "power": "200-",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "This move fails if this sync pair has used any moves since entering battle"
+ },
+ {
+   "name": "Flame Charge",
+   "type": "Fire-type",
+   "category": "Physical",
+   "power": "30-36",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Raises the user's Speed"
+ },
+ {
+   "name": "Flame Wheel",
+   "type": "Fire-type",
+   "category": "Physical",
+   "power": "47-50",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Unfreezes the user. Has a very small chance of leaving the target burned."
+ },
+ {
+   "name": "Flamethrower",
+   "type": "Fire-type",
+   "category": "Special",
+   "power": "47-56",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of leaving the target burned."
+ },
+ {
+   "name": "Flare Blitz",
+   "type": "Fire-type",
+   "category": "Physical",
+   "power": "123-147",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Unfreezes the user. The user also takes 25% of the damage it dealt to the target. Has a very small chance of leaving the target burned."
+ },
+ {
+   "name": "Fly",
+   "type": "Flying-type",
+   "category": "Physical",
+   "power": "169-202",
+   "accuracy": 95,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "The user begins flying. After a set time the user stops flying and attacks. No other actions can be taken while flying. Most moves used by opponents will not hit the user while it is flying. If the user is hit by a sync move while flying it will stop flying."
+ },
+ {
+   "name": "Focus Blast",
+   "type": "Fighting-type",
+   "category": "Special",
+   "power": "142-170",
+   "accuracy": 70,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a very small chance of lowering the target's Sp. Def."
+ },
+ {
+   "name": "Frenzy Plant",
+   "type": "Grass-type",
+   "category": "Special",
+   "power": "178-213",
+   "accuracy": 90,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Frost Breath",
+   "type": "Ice-type",
+   "category": "Special",
+   "power": "45-54",
+   "accuracy": 90,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Except in certain circumstances successful hits with this attack become critical hits."
+ },
+ {
+   "name": "Fury Cutter",
+   "type": "Bug-type",
+   "category": "Physical",
+   "power": "8-9",
+   "accuracy": 95,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Its power increases when used in succession"
+ },
+ {
+   "name": "Giga Drain",
+   "type": "Grass-type",
+   "category": "Special",
+   "power": "91-109",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Restores the user's HP based on the amount of damage dealt to the target."
+ },
+ {
+   "name": "Gust",
+   "type": "Flying-type",
+   "category": "Special",
+   "power": "20-24",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Gyro Ball",
+   "type": "Steel-type",
+   "category": "Physical",
+   "power": "44-52",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Its power is doubled if the target's Speed has risen"
+ },
+ {
+   "name": "Hail",
+   "type": "Ice-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Field",
+   "description": "Causes a hailstorm"
+ },
+ {
+   "name": "Haze",
+   "type": "Ice-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "Returns raised stats of all opposing sync pairs to normal"
+ },
+ {
+   "name": "Head Smash",
+   "type": "Rock-type",
+   "category": "Physical",
+   "power": "188-225",
+   "accuracy": 80,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "The user also takes 33% of the damage dealt to its opponent"
+ },
+ {
+   "name": "Heat Wave",
+   "type": "Fire-type",
+   "category": "Special",
+   "power": "109-130",
+   "accuracy": 90,
+   "move_slots": "3",
+   "target": "All opponents",
+   "description": "Has a very small chance of leaving the target burned."
+ },
+ {
+   "name": "Hex",
+   "type": "Ghost-type",
+   "category": "Special",
+   "power": "38-45",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Its power is doubled if the target is affected by a status condition"
+ },
+ {
+   "name": "Hidden Power",
+   "type": "Psychic-type",
+   "category": "Special",
+   "power": "50-60",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "High Horsepower",
+   "type": "Ground-type",
+   "category": "Physical",
+   "power": "106-127",
+   "accuracy": 95,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Hurricane",
+   "type": "Flying-type",
+   "category": "Special",
+   "power": "126-151",
+   "accuracy": 70,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Never misses when the weather is rainy. Has a moderate chance of leaving the target confused."
+ },
+ {
+   "name": "Hydro Cannon",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "178-213",
+   "accuracy": 90,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Hydro Pump",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "125-150",
+   "accuracy": 80,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Hyper Beam",
+   "type": "Normal-type",
+   "category": "Special",
+   "power": "223-267",
+   "accuracy": 90,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Hyper Voice",
+   "type": "Normal-type",
+   "category": "Special",
+   "power": "63-75",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Hypnosis",
+   "type": "Psychic-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 75,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Puts the target to sleep"
+ },
+ {
+   "name": "Ice Beam",
+   "type": "Ice-type",
+   "category": "Special",
+   "power": "46-55",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of leaving the target frozen"
+ },
+ {
+   "name": "Ice Fang",
+   "type": "Ice-type",
+   "category": "Physical",
+   "power": "46-55",
+   "accuracy": 95,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of making the target flinch or leaving the target frozen"
+ },
+ {
+   "name": "Ice Punch",
+   "type": "Ice-type",
+   "category": "Physical",
+   "power": "46-55",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of leaving the target frozen"
+ },
+ {
+   "name": "Icicle Crash",
+   "type": "Ice-type",
+   "category": "Physical",
+   "power": "105-126",
+   "accuracy": 90,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a moderate chance of making the target flinch"
+ },
+ {
+   "name": "Icicle Spear",
+   "type": "Ice-type",
+   "category": "Physical",
+   "power": "15-18",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Attacks the target two to five times in a row"
+ },
+ {
+   "name": "Icy Wind",
+   "type": "Ice-type",
+   "category": "Special",
+   "power": "92-110",
+   "accuracy": 95,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Lower the target's Speed"
+ },
+ {
+   "name": "Infestation",
+   "type": "Bug-type",
+   "category": "Special",
+   "power": "20-24",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Leaves the target trapped"
+ },
+ {
+   "name": "Iron Head",
+   "type": "Steel-type",
+   "category": "Physical",
+   "power": "92-110",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a moderate chance of making the target flinch"
+ },
+ {
+   "name": "Iron Tail",
+   "type": "Steel-type",
+   "category": "Physical",
+   "power": "132-158",
+   "accuracy": 75,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a moderate chance of lowering the target's Defense"
+ },
+ {
+   "name": "Karate Chop",
+   "type": "Fighting-type",
+   "category": "Physical",
+   "power": "16-19",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Critical hits land more easily"
+ },
+ {
+   "name": "King's Shield",
+   "type": "Steel-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Self",
+   "description": "The user takes up a defensive posture. Using this again will make the user leave this defensive posture. No other actions can be taken when in this defensive posture. Nullifies attacks that target the user when attacked while in this defensive posture. Sharply lowers the Attack of opponents that use physical attacks against the user while it is in this defensive posture"
+ },
+ {
+   "name": "Leaf Storm",
+   "type": "Grass-type",
+   "category": "Special",
+   "power": "136-163",
+   "accuracy": 90,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Sharply lowers the user's Sp. Atk"
+ },
+ {
+   "name": "Lick",
+   "type": "Ghost-type",
+   "category": "Physical",
+   "power": "12-14",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Has a moderate chance of leaving the target paralyzed."
+ },
+ {
+   "name": "Light Screen",
+   "type": "Psychic-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "3",
+   "target": "Allied Field",
+   "description": "Reduces special damage done to the allied field of play."
+ },
+ {
+   "name": "Liquidation",
+   "type": "Water-type",
+   "category": "Physical",
+   "power": "99-118",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a small chance of lowering the target's Defense."
+ },
+ {
+   "name": "Low Sweep",
+   "type": "Fighting-type",
+   "category": "Physical",
+   "power": "30-36",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Lowers the target's Speed"
+ },
+ {
+   "name": "Lunge",
+   "type": "Bug-type",
+   "category": "Physical",
+   "power": "80-96",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Lowers the target's Attack"
+ },
+ {
+   "name": "Mega Kick",
+   "type": "Normal-type",
+   "category": "Physical",
+   "power": "167-200",
+   "accuracy": 75,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Metal Claw",
+   "type": "Steel-type",
+   "category": "Physical",
+   "power": "21-25",
+   "accuracy": 95,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Has a very small chance of raising the user's Attack"
+ },
+ {
+   "name": "Meteor Mash",
+   "type": "Steel-type",
+   "category": "Physical",
+   "power": "55-66",
+   "accuracy": 90,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a small chance of raising the user's Attack"
+ },
+ {
+   "name": "Mirror Coat",
+   "type": "Psychic-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "The user takes up a counterattacking posture. Using this move again will cause the user to leave this posture. No other actions can be taken while in this posture. The user will attack if hit by a special move while it is in this counterattacking posture then the user leaves this posture. The more damage the user has taken from the opponent's move the greater the power of this move."
+ },
+ {
+   "name": "Moonblast",
+   "type": "Fairy-type",
+   "category": "Special",
+   "power": "98-117",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a moderate chance of lowering the target's Sp. Atk."
+ },
+ {
+   "name": "Mud Shot",
+   "type": "Ground-type",
+   "category": "Special",
+   "power": "39-46",
+   "accuracy": 95,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Lowers the target's Speed"
+ },
+ {
+   "name": "Mud-Slap",
+   "type": "Ground-type",
+   "category": "Special",
+   "power": "13-15",
+   "accuracy": 90,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Lowers the target's accuracy"
+ },
+ {
+   "name": "Multi-Attack",
+   "type": "Normal-type",
+   "category": "Physical",
+   "power": "125-150",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "This attack's type is determined by the user's type change."
+ },
+ {
+   "name": "Night Slash",
+   "type": "Dark-type",
+   "category": "Physical",
+   "power": "40-48",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Critical hits land more easily."
+ },
+ {
+   "name": "Nuzzle",
+   "type": "Electric-type",
+   "category": "Physical",
+   "power": "20-24",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Leaves the target paralyzed"
+ },
+ {
+   "name": "Octazooka",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "56-67",
+   "accuracy": 85,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a good chance of lowering the target's accuracy"
+ },
+ {
+   "name": "Ominous Wind",
+   "type": "Ghost-type",
+   "category": "Special",
+   "power": "47-56",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of raising the user's Attack Defense Sp. Atk Sp. Def and Speed."
+ },
+ {
+   "name": "Outrage",
+   "type": "Dragon-type",
+   "category": "Physical",
+   "power": "115-138",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Leaves the user confused"
+ },
+ {
+   "name": "Overheat",
+   "type": "Fire-type",
+   "category": "Special",
+   "power": "136-163",
+   "accuracy": 90,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Sharply lowers the user's Sp. Atk."
+ },
+ {
+   "name": "Parabolic Charge",
+   "type": "Electric-type",
+   "category": "Special",
+   "power": "46-55",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "Restores the user's HP based on the amount of damage dealt to the target."
+ },
+ {
+   "name": "Peck",
+   "type": "Flying-type",
+   "category": "Physical",
+   "power": "20-24",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Phantom Force",
+   "type": "Ghost-type",
+   "category": "Physical",
+   "power": "160-192",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "The user takes on a phantom presence stance. After a set time this presence fades and the user attacks. No other actions can be taken while in phantom presence. Opponents' moves will not hit the user while it is in this presence. If the user is hit by a sync move while in phantom presence the presence will fade."
+ },
+ {
+   "name": "Pin Missile",
+   "type": "Bug-type",
+   "category": "Physical",
+   "power": "16-19",
+   "accuracy": 95,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Attacks the target two to five times in a row"
+ },
+ {
+   "name": "Play Rough",
+   "type": "Fairy-type",
+   "category": "Physical",
+   "power": "111-133",
+   "accuracy": 90,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a very small chance of lowering the target's Attack"
+ },
+ {
+   "name": "Poison Fang",
+   "type": "Poison-type",
+   "category": "Physical",
+   "power": "34-40",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a good chance of leaving the target badly poisoned"
+ },
+ {
+   "name": "Poison Gas",
+   "type": "Poison-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 90,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "Leaves all opposing Sync Pairs poisoned"
+ },
+ {
+   "name": "Poison Jab",
+   "type": "Poison-type",
+   "category": "Physical",
+   "power": "92-110",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a moderate chance of leaving the target poisoned"
+ },
+ {
+   "name": "Poison Sting",
+   "type": "Poison-type",
+   "category": "Physical",
+   "power": "12-14",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Has a moderate chance of leaving the target poisoned."
+ },
+ {
+   "name": "Poison Tail",
+   "type": "Poison-type",
+   "category": "Physical",
+   "power": "38-45",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Critical hits land more easily. Has a very small chance of leaving the target poisoned."
+ },
+ {
+   "name": "Powder Snow",
+   "type": "Ice-type",
+   "category": "Special",
+   "power": "16-19",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "All opponents",
+   "description": "Has a very small chance of leaving the target frozen."
+ },
+ {
+   "name": "Power-Up Punch",
+   "type": "Fighting-type",
+   "category": "Physical",
+   "power": "30-36",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Raises the user's Attack"
+ },
+ {
+   "name": "Psybeam",
+   "type": "Psychic-type",
+   "category": "Special",
+   "power": "48-57",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of leaving the target confused"
+ },
+ {
+   "name": "Psychic",
+   "type": "Psychic-type",
+   "category": "Special",
+   "power": "99-118",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a very small chance of lowering the target's Sp. Def"
+ },
+ {
+   "name": "Psychic Terrain",
+   "type": "Psychic-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Field",
+   "description": "Turns the field into Psychic Terrain"
+ },
+ {
+   "name": "Rain Dance",
+   "type": "Water-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Field",
+   "description": "Makes the weather rainy"
+ },
+ {
+   "name": "Razor Leaf",
+   "type": "Grass-type",
+   "category": "Physical",
+   "power": "43-51",
+   "accuracy": 95,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "Criticla hits land more easily"
+ },
+ {
+   "name": "Reflect",
+   "type": "Psychic-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "3 (Gauge) 2 MP",
+   "target": " All allies",
+   "description": " Reduces physical damage done to the allied field of play."
+ },
+ {
+   "name": "Rock Slide",
+   "type": "Rock-type",
+   "category": "Physical",
+   "power": "105-126",
+   "accuracy": 90,
+   "move_slots": "3",
+   "target": "All opponents",
+   "description": "Has a moderate chance of making the target flinch"
+ },
+ {
+   "name": "Rock Smash",
+   "type": "Fighting-type",
+   "category": "Physical",
+   "power": "46-55",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a good chance of lowering the target's Defense"
+ },
+ {
+   "name": "Rock Throw",
+   "type": "Rock-type",
+   "category": "Physical",
+   "power": "23-27",
+   "accuracy": 90,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Rock Tomb",
+   "type": "Rock-type",
+   "category": "Physical",
+   "power": "39-46",
+   "accuracy": 95,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Lowers the target's Speed"
+ },
+ {
+   "name": "Sacred Fire",
+   "type": "Fire-type",
+   "category": "Physical",
+   "power": "87-104",
+   "accuracy": 95,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Removes the frozen condition from the user. Has a good chance of leaving the target burned."
+ },
+ {
+   "name": "Sandstorm",
+   "type": "Rock-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Field",
+   "description": "Causes a sandstorm"
+ },
+ {
+   "name": "Scald",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "87-104",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Removes frozen condition. Has a moderate chance of leaving the target burned."
+ },
+ {
+   "name": "Screech",
+   "type": "Normal-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Sharply lowers the target's Defense"
+ },
+ {
+   "name": "Seed Bomb",
+   "type": "Grass-type",
+   "category": "Physical",
+   "power": "100-120",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Shadow Ball",
+   "type": "Ghost-type",
+   "category": "Special",
+   "power": "99-118",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a small chance of lowering the target's Sp. Def"
+ },
+ {
+   "name": "Shadow Claw",
+   "type": "Ghost-type",
+   "category": "Physical",
+   "power": "40-48",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Critical hits land more easily"
+ },
+ {
+   "name": "Shadow Punch",
+   "type": "Ghost-type",
+   "category": "Physical",
+   "power": "45-54",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Never misses"
+ },
+ {
+   "name": "Shadow Sneak",
+   "type": "Ghost-type",
+   "category": "Physical",
+   "power": "75-90",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Silver Wind",
+   "type": "Bug-type",
+   "category": "Special",
+   "power": "47-56",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of raising the user's Attack Defense Sp. Atk Sp. Def and Speed."
+ },
+ {
+   "name": "Slash",
+   "type": "Ground-type",
+   "category": "Physical",
+   "power": "50-60",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Critical hits land more easily"
+ },
+ {
+   "name": "Sleep Powder",
+   "type": "Grass-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 75,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Puts the target to sleep"
+ },
+ {
+   "name": "Sludge",
+   "type": "Poison-type",
+   "category": "Special",
+   "power": "42-50",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a moderate change of leaving the target poisoned"
+ },
+ {
+   "name": "Sludge Bomb",
+   "type": "Poison-type",
+   "category": "Special",
+   "power": "92-110",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a moderate chance of leaving the target poisoned."
+ },
+ {
+   "name": "Sludge Wave",
+   "type": "Poison-type",
+   "category": "Special",
+   "power": "97-116",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "All opponents",
+   "description": "Has a very small chance of leaving the target poisoned."
+ },
+ {
+   "name": "Smack Down",
+   "type": "Rock-type",
+   "category": "Physical",
+   "power": "20-24",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Smog",
+   "type": "Poison-type",
+   "category": "Special",
+   "power": "21-25",
+   "accuracy": 70,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Has a moderately good chance of leaving the target poisoned."
+ },
+ {
+   "name": "Snarl",
+   "type": "Dark-type",
+   "category": "Special",
+   "power": "39-46",
+   "accuracy": 95,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "Lowers the target's Sp. Atk"
+ },
+ {
+   "name": "Snatch",
+   "type": "Dark-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Returns the target's raise stats to normal and raises the user's stats by that amount."
+ },
+ {
+   "name": "Solar Beam",
+   "type": "Grass-type",
+   "category": "Special",
+   "power": "150-180",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "The user gets ready to attack. Using this move again will cause the user to attack. No other actions can be taken while ready to attack. The preparation period is skipped if the weather is sunny and the user can attack right away"
+ },
+ {
+   "name": "Spacial Rend",
+   "type": "Dragon-type",
+   "category": "Special",
+   "power": "85-102",
+   "accuracy": 95,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Critical hits land more easily."
+ },
+ {
+   "name": "Spark",
+   "type": "Electric-type",
+   "category": "Physical",
+   "power": "42-50",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a moderate chance of leaving the target paralyzed."
+ },
+ {
+   "name": "Stomp",
+   "type": "Normal-type",
+   "category": "Physical",
+   "power": "53-63",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a moderate chance of making the target flinch"
+ },
+ {
+   "name": "Stomping Tantrum",
+   "type": "Ground-type",
+   "category": "Physical",
+   "power": "44-52",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Its power is doubled if the user's previous move failed."
+ },
+ {
+   "name": "Stone Edge",
+   "type": "Rock-type",
+   "category": "Physical",
+   "power": "100-120",
+   "accuracy": 80,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Critical hits land more easily"
+ },
+ {
+   "name": "Stored Power",
+   "type": "Psychic-type",
+   "category": "Special",
+   "power": "13-15",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "The more the user's stats are raised the greater the power of this move."
+ },
+ {
+   "name": "Struggle Bug",
+   "type": "Bug-type",
+   "category": "Special",
+   "power": "30-36",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "Lowers the target's Sp. Atk"
+ },
+ {
+   "name": "Stun Spore",
+   "type": "Grass-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 90,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Leaves the target paralyzed"
+ },
+ {
+   "name": "Sunny Day",
+   "type": "Fire-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Field",
+   "description": "Makes the weather sunny"
+ },
+ {
+   "name": "Sunsteel Strike",
+   "type": "Steel-type",
+   "category": "Physical",
+   "power": "100-120",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Ignores passive skills that would reduce the damage of this attack. Ignores passive skills that would protect the target against a critical hit. Opponents cannot endure this attack."
+ },
+ {
+   "name": "Swift",
+   "type": "Normal-type",
+   "category": "Special",
+   "power": "57-68",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "Never misses."
+ },
+ {
+   "name": "Tackle",
+   "type": "Normal-type",
+   "category": "Physical",
+   "power": "25-30",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Telekinesis",
+   "type": "Psychic-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "",
+   "target": "Opponent",
+   "description": "Makes the target unable to evade moves"
+ },
+ {
+   "name": "Thunder",
+   "type": "Electric-type",
+   "category": "Special",
+   "power": "124-148",
+   "accuracy": 70,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Never misses when the weather is rainy. Has a moderate chance of leaving the target paralyzed."
+ },
+ {
+   "name": "Thunder Fang",
+   "type": "Electric-type",
+   "category": "Physical",
+   "power": "47-56",
+   "accuracy": 95,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of making the target flinch or leaving the target paralyzed."
+ },
+ {
+   "name": "Thunder Shock",
+   "type": "Electric-type",
+   "category": "Special",
+   "power": "17-20",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Has a very small chance of leaving the target paralyzed"
+ },
+ {
+   "name": "Thunder Wave",
+   "type": "Electric-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 90,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Leaves the target paralyzed"
+ },
+ {
+   "name": "Thunderbolt",
+   "type": "Electric-type",
+   "category": "Special",
+   "power": "47-56",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of leaving the target paralyzed"
+ },
+ {
+   "name": "Twineedle",
+   "type": "Bug-type",
+   "category": "Physical",
+   "power": "20-24",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Attacks twice in a row. Has a small chance of leaving the target poisoned."
+ },
+ {
+   "name": "Twister",
+   "type": "Dragon-type",
+   "category": "Special",
+   "power": "45-54",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a small chance of making the target flinch."
+ },
+ {
+   "name": "Vacuum Wave",
+   "type": "Fighting-type",
+   "category": "Special",
+   "power": "20-24",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Venom Drench",
+   "type": "Poison-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Lowers the target's Attack Sp. Atk and Speed if the target is poisoned or badly poisoned. Fails if the target is not poisoned or badly poisoned."
+ },
+ {
+   "name": "Venoshock",
+   "type": "Poison-type",
+   "category": "Special",
+   "power": "42-50",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Its power is doubled if the target is poisoned or badly poisoned"
+ },
+ {
+   "name": "Vine Whip",
+   "type": "Grass-type",
+   "category": "Physical",
+   "power": "20-",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Water Gun",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "20-",
+   "accuracy": 100,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Water Pulse",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "47-56",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a small chance of leaving the target confused"
+ },
+ {
+   "name": "Waterfall",
+   "type": "Water-type",
+   "category": "Physical",
+   "power": "45-54",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a small chance of making the target flinch"
+ },
+ {
+   "name": "Whirlpool",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "38-45",
+   "accuracy": 85,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Leaves the target trapped."
+ },
+ {
+   "name": "Wide Guard",
+   "type": "Rock-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Self",
+   "description": "The user takes up a defensive posture. Using this again will make the user leave this defensive posture. No other actions can be taken when in this defensive posture. Nullifies attacks that target all allies when attacked while in this defensive posture"
+ },
+ {
+   "name": "Wild Charge",
+   "type": "Electric-type",
+   "category": "Physical",
+   "power": "125-150",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "The user also takes 20% of the damage it dealt to the target."
+ },
+ {
+   "name": "Will-O-Wisp",
+   "type": "Fire-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 90,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Leaves the target burned"
+ },
+ {
+   "name": "Wrap",
+   "type": "Normal-type",
+   "category": "Physical",
+   "power": "39-46",
+   "accuracy": 90,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Leaves the target trapped."
+ },
+ {
+   "name": "X-Scissor",
+   "type": "Bug-type",
+   "category": "Physical",
+   "power": "50-60",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Zen Headbutt",
+   "type": "Psychic-type",
+   "category": "Physical",
+   "power": "51-61",
+   "accuracy": 90,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a small chance of making the target flinch"
+ },
+ {
+   "name": "Zing Zap",
+   "type": "Electric-type",
+   "category": "Physical",
+   "power": "42-50",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a moderate chance of making the target flinch"
+ },
+ {
+   "name": "Merry and Bright Dazzling Gleam",
+   "type": "Fairy-type",
+   "category": "Special",
+   "power": "250-300",
+   "accuracy": null,
+   "move_slots": "",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Tri Attack",
+   "type": "Normal-type",
+   "category": "Special",
+   "power": "117-140",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a small chance of leaving the target burned paralyzed or frozen."
+ },
+ {
+   "name": "Behemoth Blade",
+   "type": "Steel-type",
+   "category": "Physical",
+   "power": "144-172",
+   "accuracy": 100,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "This move's power increases if the target has a sync buff."
+ },
+ {
+   "name": "Bolt Strike",
+   "type": "Electric-type",
+   "category": "Physical",
+   "power": "189-226",
+   "accuracy": 85,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "Has a small chance of leaving the target paralyzed."
+ },
+ {
+   "name": "Bounce",
+   "type": "Flying-type",
+   "category": "Physical",
+   "power": "182-218",
+   "accuracy": 85,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "The user begins bouncing. After a set time the user stops bouncing and attacks. Has a moderate chance of leaving the target paralyzed. No other actions can be taken while bouncing. Most moves used by opponents will not hit the user while it is bouncing. If the user is hit by a sync move while bouncing it will stop bouncing."
+ },
+ {
+   "name": "Leech Life",
+   "type": "Bug-type",
+   "category": "Physical",
+   "power": "91-109",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Restores the user's HP based on the amount of damage dealt to the target."
+ },
+ {
+   "name": "Trop Kick",
+   "type": "Grass-type",
+   "category": "Physical",
+   "power": "30-36",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Lowers the target's Attack"
+ },
+ {
+   "name": "Teeter Dance",
+   "type": "Normal-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Leaves the target confused"
+ },
+ {
+   "name": "Power Whip",
+   "type": "Grass-type",
+   "category": "Physical",
+   "power": "118-141",
+   "accuracy": 85,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Muddy Water",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "116-139",
+   "accuracy": 85,
+   "move_slots": "3",
+   "target": "All opponents",
+   "description": "Has a moderate chance of lowering the target's accuracy."
+ },
+ {
+   "name": "Earth Power",
+   "type": "Ground-type",
+   "category": "Special",
+   "power": "99-118",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a very small chance of lowering the target's Sp. Def."
+ },
+ {
+   "name": "Thunder Punch",
+   "type": "Electric-type",
+   "category": "Physical",
+   "power": "47-56",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a very small chance of leaving the target paralyzed."
+ },
+ {
+   "name": "Flash Cannon",
+   "type": "Steel-type",
+   "category": "Special",
+   "power": "99-118",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a very small chance of lowering the target's Sp. Def."
+ },
+ {
+   "name": "Mirror Shot",
+   "type": "Steel-type",
+   "category": "Special",
+   "power": "57-68",
+   "accuracy": 85,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a moderate chance of lowering the target's accuracy."
+ },
+ {
+   "name": "Cotton Spore",
+   "type": "Grass-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "Sharply lowers the target's Speed."
+ },
+ {
+   "name": "Oblivion Wing",
+   "type": "Flying-type",
+   "category": "Special",
+   "power": "146-175",
+   "accuracy": 100,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "Restores the user's HP based on the amount of damage dealt to the target. Each use restores up to half of the user's maximum HP."
+ },
+ {
+   "name": "Obstruct",
+   "type": "Dark-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Self",
+   "description": "The user takes up a defensive posture. Using this move again will make the user leave this defensive posture. No other actions can be taken when in this defensive posture. Nullifies an attack move that targets the user while it is in this defensive posture then the user leaves the defensive posture. If the move was a physical attack move sharply lowers the Defense of the opponent that used it."
+ },
+ {
+   "name": "Horn Leech",
+   "type": "Grass-type",
+   "category": "Physical",
+   "power": "91-109",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Restores the user's HP based on the amount of damage dealt to the target."
+ },
+ {
+   "name": "Inferno",
+   "type": "Fire-type",
+   "category": "Special",
+   "power": "183-219",
+   "accuracy": 50,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "Leaves the target burned"
+ },
+ {
+   "name": "Power Trip",
+   "type": "Dark-type",
+   "category": "Physical",
+   "power": "13-15",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "The more the user's stats are raised the greater the power of this move."
+ },
+ {
+   "name": "Aura Wheel",
+   "type": "Electric-type",
+   "category": "Physical",
+   "power": "80-96",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Raises the user's Speed. When the user is in Full Belly Mode this attack becomes Electric type. When the user is in Hangry Mode this attack becomes Dark type."
+ },
+ {
+   "name": "Breaking Swipe",
+   "type": "Dragon-type",
+   "category": "Physical",
+   "power": "30-36",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "Lowers the target's attack"
+ },
+ {
+   "name": "Dragon Rush",
+   "type": "Dragon-type",
+   "category": "Physical",
+   "power": "130-156",
+   "accuracy": 75,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a small chance of making the target flinch."
+ },
+ {
+   "name": "Metronome",
+   "type": "Normal-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "1",
+   "target": "Opponent",
+   "description": "Uses one of several moves at random"
+ },
+ {
+   "name": "Headbutt",
+   "type": "Normal-type",
+   "category": "Physical",
+   "power": "53-63",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a moderate chance of making the target flinch"
+ },
+ {
+   "name": "High Jump Kick",
+   "type": "Fighting-type",
+   "category": "Physical",
+   "power": "135-162",
+   "accuracy": 90,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "If it fails the user takes damage equal to half its maximum HP."
+ },
+ {
+   "name": "Sparkling Aria",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "100-120",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "All opponents",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Spirit Shackle",
+   "type": "Ghost-type",
+   "category": "Physical",
+   "power": "80-96",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Applies the Restrain effect to the target"
+ },
+ {
+   "name": "Leaf Blade",
+   "type": "Grass-type",
+   "category": "Physical",
+   "power": "80-96",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Critical hits land more easily."
+ },
+ {
+   "name": "Steel Beam",
+   "type": "Steel-type",
+   "category": "Special",
+   "power": "199-238",
+   "accuracy": 95,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "The user takes damage equal to half its maximum HP. The damage is taken even if the attack fails"
+ },
+ {
+   "name": "Glaciate",
+   "type": "Ice-type",
+   "category": "Special",
+   "power": "155-186",
+   "accuracy": 95,
+   "move_slots": "4",
+   "target": "All opponents",
+   "description": "Lowers the target's Speed"
+ },
+ {
+   "name": "Noble Roar",
+   "type": "Normal-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Lowers the target's Attack and Sp. Atk"
+ },
+ {
+   "name": "Razor Shell",
+   "type": "Water-type",
+   "category": "Physical",
+   "power": "103-123",
+   "accuracy": 95,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Has a good chance of lowering the target's Defense"
+ },
+ {
+   "name": "Jaw Lock",
+   "type": "Dark-type",
+   "category": "Physical",
+   "power": "140-168",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Applies the Restrain effect to the target and the user"
+ },
+ {
+   "name": "Meteor Assault",
+   "type": "Fighting-type",
+   "category": "Physical",
+   "power": "160-192",
+   "accuracy": 100,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Worthy Foe Meteor Assault",
+   "type": "Fighting-type",
+   "category": "Physical",
+   "power": "250-300",
+   "accuracy": null,
+   "move_slots": "",
+   "target": "Opponent",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Sacred Sword",
+   "type": "Fighting-type",
+   "category": "Physical",
+   "power": "90-108",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Ignores the target's raised stats when attacking with this move"
+ },
+ {
+   "name": "Toxic",
+   "type": "Poison-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": 90,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Leaves the target badly poisoned"
+ },
+ {
+   "name": "Feint Attack",
+   "type": "Dark-type",
+   "category": "Physical",
+   "power": "45-54",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Never Misses"
+ },
+ {
+   "name": "Precipice Blades",
+   "type": "Ground-type",
+   "category": "Physical",
+   "power": "189-226",
+   "accuracy": 85,
+   "move_slots": "4",
+   "target": "All opponents",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Origin Pulse",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "189-226",
+   "accuracy": 85,
+   "move_slots": "4",
+   "target": "All opponents",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Shadow Bone",
+   "type": "Ghost-type",
+   "category": "Physical",
+   "power": "49-58",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Has a small chance of lowering the target's Defense"
+ },
+ {
+   "name": "Ice Hammer",
+   "type": "Ice-type",
+   "category": "Physical",
+   "power": "194-232",
+   "accuracy": null,
+   "move_slots": "",
+   "target": "Opponent",
+   "description": "Lowers the user's Speed"
+ },
+ {
+   "name": "Brutal Swing",
+   "type": "Dark-type",
+   "category": "Physical",
+   "power": "50-60",
+   "accuracy": 100,
+   "move_slots": "2",
+   "target": "All opponents",
+   "description": "No additional effect"
+ },
+ {
+   "name": "Darkest Lariat",
+   "type": "Dark-type",
+   "category": "Physical",
+   "power": "90-108",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Ignores the target's raised stats when attacking with this move"
+ },
+ {
+   "name": "Snipe Shot",
+   "type": "Water-type",
+   "category": "Special",
+   "power": "128-",
+   "accuracy": 100,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "Critical hits land more easily."
+ },
+ {
+   "name": "Spirit Break",
+   "type": "Fairy-type",
+   "category": "Physical",
+   "power": "140-",
+   "accuracy": null,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "Lowers the target's Sp. Atk. By 1 stat rank."
+ },
+ {
+   "name": "Bulk Up",
+   "type": "Fighting-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Self",
+   "description": "Raises the user's Attack and Defense by 1 stat rank."
+ },
+ {
+   "name": "Sand Tomb",
+   "type": "Ground-type",
+   "category": "Physical",
+   "power": "38-45",
+   "accuracy": 85,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Leaves the target trapped"
+ },
+ {
+   "name": "Hyperspace Hole",
+   "type": "Psychic-type",
+   "category": "Special",
+   "power": "144-172",
+   "accuracy": null,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "Never Misses"
+ },
+ {
+   "name": "Dynamax Cannon",
+   "type": "Dragon-type",
+   "category": "Special",
+   "power": "144-172",
+   "accuracy": null,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "This move's power increases by 50% when the target has a Sync buff"
+ },
+ {
+   "name": "Behemoth Bash",
+   "type": "Steel-type",
+   "category": "Physical",
+   "power": "144-172",
+   "accuracy": 100,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "This move's power increases 50% when the target has a sync buff"
+ },
+ {
+   "name": "Brave Bird",
+   "type": "Flying-type",
+   "category": "Physical",
+   "power": "134-160",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "The user also takes 25% of the damage it dealt to the target."
+ },
+ {
+   "name": "Blue Flare",
+   "type": "Fire-type",
+   "category": "Special",
+   "power": "184-220",
+   "accuracy": null,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "Has a chance (20%) of leaving the target burned."
+ },
+ {
+   "name": "Dragon Ascent",
+   "type": "Flying-type",
+   "category": "Physical",
+   "power": "192-230",
+   "accuracy": 100,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "Lowers the user's Defense and Sp. Def by 1 stat rank."
+ },
+ {
+   "name": "Moongeist Beam",
+   "type": "Ghost-type",
+   "category": "Special",
+   "power": "160-192",
+   "accuracy": 100,
+   "move_slots": "4",
+   "target": "Opponent",
+   "description": "Ignores passive skills that would reduce the damage of this attack. Ignores passive skills that would protect the target against a critical hit. Ignores the target's enduring effect"
+ },
+ {
+   "name": "Mist",
+   "type": "Ice-type",
+   "category": "Other",
+   "power": " ",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Allied Field",
+   "description": "Applies the Stat Reduction Defense effect to the allied field of play."
+ },
+ {
+   "name": "Solar Blade",
+   "type": "Grass-type",
+   "category": "Physical",
+   "power": "200-240",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "The user gets ready to attack. Using this move again will cause the user to leave this posture then attack. No other actions can be taken while ready to attack. The preparation period is skipped when the weather is sunny and the user will attack right away."
+ },
+ {
+   "name": "Psystrike",
+   "type": "Psychic-type",
+   "category": "Special",
+   "power": "100-120",
+   "accuracy": 100,
+   "move_slots": "3",
+   "target": "Opponent",
+   "description": "Deals damage based on the targetâ€™s Defense rather than Sp.Â Def."
+ },
+ {
+   "name": "Feather Dance",
+   "type": "Flying-type",
+   "category": "Other",
+   "power": "100-120",
+   "accuracy": null,
+   "move_slots": "2",
+   "target": "Opponent",
+   "description": "Lowers the target's Attack by 2 stat ranks."
+ }
+ ]
