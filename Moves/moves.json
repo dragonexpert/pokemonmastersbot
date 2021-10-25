@@ -1100,7 +1100,7 @@
    "description": "Lowers the target's accuracy"
  },
  {
-   "name": "Multi-Attack",
+   "name": "Multi Attack",
    "type": "Normal-type",
    "category": "Physical",
    "power": "125-150",
