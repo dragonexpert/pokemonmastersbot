@@ -17,6 +17,11 @@ module.exports = {
             msg.syncPairs.set(syncpair.name, syncpair);
         }
         let command = args.replace("view ", "").toLowerCase();
+        if(command.toLowerCase().startsWith("sygna suit"))
+        {
+            let parts = command.split(" ");
+            command = "ss" + parts[2];
+        }
         let commandInfo = msg.syncPairs.get(command);
         if(!commandInfo)
         {
