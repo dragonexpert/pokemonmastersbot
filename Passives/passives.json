@@ -486,5 +486,15 @@
   "combofreebie": "Has a chance of applying the Free Move Next effect to the user when its attack move is successful.",
   "charginginfliction": "Charges the user's move gauge by X when the Pokemon uses a status move.",
   "openingblockade": "Applies the Physical Damage Reduction effect and the Special Damage Reduction effect to the allied field of play the first time the user enters a battle each battle.",
-  "searingquickcombo": "Restores one MP for the user's moves with a quick move effect tag when its attack move is successful while the target is burned."
+  "searingquickcombo": "Restores one MP for the user's moves with a quick move effect tag when its attack move is successful while the target is burned.",
+  "easytarget": "The more the target's evasiveness is lowered, the more it powers up the user's sync move.",
+  "victorycharge": "Charges the user's move gauge by X when it knocks out an opponent with a move.",
+  "supersyncer": "Applies the Supereffective Next effect to the user the first time its sync move is used each battle.",
+  "tenacity": "Increases the user's Physical Moves Next effect by 3 ranks when its attack move misses.",
+  "teamsharpentry": "Raises the critical-hit rate of all allied sync pairs by X stat rank when the user enters a battle.",
+  "groupmoraleboost": "Raises the Sp.Atk of all allied sync pairs by one stat rank when the user's Trainer uses a move.",
+  "armorleech": "Lowers the target's Defense by one stat rank and raises the user's Defense by the same amount when the user's attack move against the target is successful.",
+  "mindleech": "Lowers the target's Sp.Def by one stat rank and raises the user's Sp.Def by the same amount when the user's attack move against the target is successful.",
+  "speedleech": "Lowers the target's Speed by one stat rank and raises the user's Speed by the same amount when the user's attack move against the target is successful.",
+  "fueleconomy": "Decreases the amount of move gauge slots the user's Pokemon needs to use moves by X."
 }
