@@ -22,6 +22,11 @@ module.exports = {
             let parts = command.split(" ");
             command = "ss" + parts[2];
         }
+        if(command.toLowerCase().startsWith("seasonal "))
+        {
+            let parts = command.split(" ");
+            command = "s" + parts[1];
+        }
         let commandInfo = msg.syncPairs.get(command);
         if(!commandInfo)
         {
