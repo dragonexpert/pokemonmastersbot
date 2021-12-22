@@ -1,0 +1,1466 @@
+[
+  {
+    "name": "A Rain of Fists",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Attack. Raises the user's Defense and Sp. Def"
+  },
+  {
+    "name": "A Surge of Power",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Sp. Atk and evasiveness"
+  },
+  {
+    "name": "A Tale of Triumph",
+    "uses": 2,
+    "target": "Opponent",
+    "description": "Drastically raises the user's Speed. Sharply raises the user's evasiveness. Leaves the user burned."
+  },
+  {
+    "name": "A World of Dreams",
+    "uses": "Self",
+    "target": "Sharply raises the user's Sp. Atk. Drastically raises either the user's Attack",
+    "description": "Defense"
+  },
+  {
+    "name": "Activate",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Speed and evasiveness. Ensures that the user's next attack will be a critical hit."
+  },
+  {
+    "name": "All as One",
+    "uses": 2,
+    "target": "Self",
+    "description": "If the user's stats have been raised"
+  },
+  {
+    "name": "All or Nothing",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's critical hit rate. Drastically raises the user's evasiveness. Drastically lowers the user's Defense"
+  },
+  {
+    "name": "All Out of Patience",
+    "uses": 2,
+    "target": "Ally",
+    "description": "Restores a bit of an ally's HP. Sharply raises an ally's Defense and Sp. Def"
+  },
+  {
+    "name": "All the Presents",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Makes move gauges accelerate on the allied field of play. Raises the Speed of all allied sync pairs. Sharply raises the Attack"
+  },
+  {
+    "name": "All-Out Effort",
+    "uses": 2,
+    "target": "Self",
+    "description": "Restores a bit of the user's HP. Increases the user's move gauge by two."
+  },
+  {
+    "name": "Analysis Complete",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Defense and Sp. Def. Makes the user resistant to the type of the last move it was hit by."
+  },
+  {
+    "name": "Apply Yourself",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Increases the move gauges of all allied sync pairs by two. Makes all allied sync pairs gradually heal themselves."
+  },
+  {
+    "name": "Attention Here",
+    "uses": 1,
+    "target": "All allies",
+    "description": "Makes opponents target the user for a short time. Sharply raises the Sp. Atk of all allied sync pairs."
+  },
+  {
+    "name": "Be Brave",
+    "uses": 2,
+    "target": "Self",
+    "description": "Drastically raises the user’s Attack. Raises the user’s accuracy."
+  },
+  {
+    "name": "Beat Em Down",
+    "uses": 2,
+    "target": "Self",
+    "description": "uses a maximum of three slots of the user's move gauge. Based on the amount used"
+  },
+  {
+    "name": "Beehold My Research",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Speed. Drastically raises the user's evasiveness"
+  },
+  {
+    "name": "Bend but Don't Break",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Defense and Sp. Def. Sharply raises the user's Speed."
+  },
+  {
+    "name": "Best There Is",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Defense. Ensures that the user's next attack will be a critical hit. If Metagross has Mega Evolved"
+  },
+  {
+    "name": "Blast Off",
+    "uses": 2,
+    "target": "Self",
+    "description": "Removes all status conditions from the user. Sharply raises the user's Attack and Sp. Atk. Lowers the user's Defense and Sp. Def."
+  },
+  {
+    "name": "Blazing Hope",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the critical hit rate of all allied sync pairs and sharply raises their Sp. Atk"
+  },
+  {
+    "name": "Boo",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Attack. When in Disguised Form"
+  },
+  {
+    "name": "Brace Yourself",
+    "uses": 2,
+    "target": "Self",
+    "description": "The lower the user's HP is"
+  },
+  {
+    "name": "Breathtaking",
+    "uses": 1,
+    "target": "Ally",
+    "description": "Reduces the sync move countdown of an allied sync pair by two and raises the accuracy and critical-hit rate of the sync pair selected. Sharply raises accuracy and critical-hit rate when the user's team has a sync buff."
+  },
+  {
+    "name": "Bright As the Sun",
+    "uses": 2,
+    "target": "Self",
+    "description": "Drastically raises the user's Attack"
+  },
+  {
+    "name": "Bring It On",
+    "uses": 2,
+    "target": "Opponent",
+    "description": "Restores a bit of the user's HP. Sharply raises the user's speed"
+  },
+  {
+    "name": "Cant Stop Us",
+    "uses": 2,
+    "target": "Self",
+    "description": "Removes all status conditions from the user. Sharply raises the user's Sp. Atk. Raises the user's accuracy."
+  },
+  {
+    "name": "Catch Us If You Can",
+    "uses": 2,
+    "target": "Ally",
+    "description": "Sharply raises an ally's evasiveness. Makes an ally gradually heal itself"
+  },
+  {
+    "name": "Clang",
+    "uses": 2,
+    "target": "Allied Field",
+    "description": "Blocks both critical hits and stat-lowering effects from affecting the allied field of play."
+  },
+  {
+    "name": "Coolest There Is",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's accuracy and critical-hit rate. In addition"
+  },
+  {
+    "name": "Crash",
+    "uses": 2,
+    "target": "Self",
+    "description": "Drastically raises the user's Attack. Raises the user's Sp. Atk"
+  },
+  {
+    "name": "Dance with Me",
+    "uses": 2,
+    "target": "Self",
+    "description": "Increases the user's move gauge by three. Raises the user's critical-hit rate."
+  },
+  {
+    "name": "Dire Hit",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's critical hit rate"
+  },
+  {
+    "name": "Dire Hit +",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's critical hit rate"
+  },
+  {
+    "name": "Dire Hit All",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the critical hit rate of all allied sync pairs"
+  },
+  {
+    "name": "Dire Hit All +",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Sharply raises the critical hit rate of all allied sync pairs"
+  },
+  {
+    "name": "Dont Bore Me",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Sp. Atk. Raises the user's Defense and Sp. Def."
+  },
+  {
+    "name": "Electrifying",
+    "uses": 2,
+    "target": "Self",
+    "description": "Restores a bit of the user's HP. Ensures that the user's next attack will be a critical hit."
+  },
+  {
+    "name": "En Garde",
+    "uses": 2,
+    "target": "Self",
+    "description": "Drastically raises the user's Attack and raises its critical-hit rate when it is in Blade Forme. Sharply raises the user's Defense and Sp. Def when it is in Shield Forme"
+  },
+  {
+    "name": "Entertain Me",
+    "uses": 2,
+    "target": "Self",
+    "description": "The lower the user's HP is"
+  },
+  {
+    "name": "Eyes on the Prize",
+    "uses": 1,
+    "target": "Self",
+    "description": "Reduces the user's sync move countdown by up to three based on how low their HP is. Raises the user's critical-hit rate by up to three stat ranks based on how low their HP is."
+  },
+  {
+    "name": "Feel the Alolan Breeze",
+    "uses": 2,
+    "target": "Self",
+    "description": "Drastically raises the user's Speed. Raises the user's evasiveness"
+  },
+  {
+    "name": "Full Heal",
+    "uses": 2,
+    "target": "Ally",
+    "description": "Removes all status conditions from an ally"
+  },
+  {
+    "name": "Full Power",
+    "uses": 2,
+    "target": "Ally",
+    "description": "Drastically raises an ally's Attack and Sp. Atk. Ensures that the ally's next attack will be a critical hit."
+  },
+  {
+    "name": "Gloves Off",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the critical-hit rate of all allied sync pairs and makes their next attack a sure hit"
+  },
+  {
+    "name": "Good as New",
+    "uses": 1,
+    "target": "Ally",
+    "description": "Fully restores an ally's HP. Removes all status conditions from an ally. Removes the confused"
+  },
+  {
+    "name": "Graceful Aerobatics",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Defense and Speed."
+  },
+  {
+    "name": "Grand Illusion",
+    "uses": 2,
+    "target": "Allied Field",
+    "description": "Reflects status conditions directed toward the allied field of play on the opponent instead. Makes the user able to endure the next hit it takes."
+  },
+  {
+    "name": "Hang in There",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Defense and Sp. Def. Makes the user gradually heal itself."
+  },
+  {
+    "name": "Hard as Diamonds",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's accuracy and critical-hit rate. Sharply lowers the user's Sp. Def"
+  },
+  {
+    "name": "Hard to Starboard",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Increases the move gauges of all allied sync pairs by two. Sharply raises the Defense of all allied sync pairs"
+  },
+  {
+    "name": "Here I Come",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Attack and Sp. Atk. Sharply raises the user's accuracy."
+  },
+  {
+    "name": "Hoo Hah",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Attack and Sp. Def"
+  },
+  {
+    "name": "I Dare You",
+    "uses": 2,
+    "target": "Self",
+    "description": "Removes all status conditions from the user. Raises the user's Defense and Sp. Def. Makes the user gradually heal itself."
+  },
+  {
+    "name": "Ill Show You",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's evasiveness and critical-hit rate. These stats are sharply raised when the weather is sunny."
+  },
+  {
+    "name": "Ill Teach You a Lesson",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Sp. Atk and Sp. Def"
+  },
+  {
+    "name": "Im All Kinds of Strong",
+    "uses": 2,
+    "target": "Self",
+    "description": "Restores a bit of the user's HP. Sharply raises the user's Defense"
+  },
+  {
+    "name": "In This Together",
+    "uses": 2,
+    "target": "Self",
+    "description": "The lower the user's HP is"
+  },
+  {
+    "name": "It Aint Over",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Speed. Makes the user able to endure the next hit it takes"
+  },
+  {
+    "name": "Its All about Focus",
+    "uses": 2,
+    "target": "Self",
+    "description": "uses a maximum of three of the user's move gauge. Based on the amount used"
+  },
+  {
+    "name": "Its All Down to This",
+    "uses": 2,
+    "target": "Self",
+    "description": "Increases the user's move gauge by two. Drastically raises the user's Defense"
+  },
+  {
+    "name": "Jump Start",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Sp. Atk. Raises the user's Speed"
+  },
+  {
+    "name": "Just Fantastic",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Sp. Def. Makes the user gradually heal itself."
+  },
+  {
+    "name": "Just Warming Up",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's evasiveness. Ensures that the user's next attack will be a critical hit."
+  },
+  {
+    "name": "Keep it Up",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Speed. Makes the user gradually heal itself."
+  },
+  {
+    "name": "Leer",
+    "uses": 2,
+    "target": "Opponent",
+    "description": "Lowers the target's Defense"
+  },
+  {
+    "name": "Lets Brainstorm",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Sp. Atk and Speed of all allied sync pairs."
+  },
+  {
+    "name": "Lets Go",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Increases the move gauges of all allied sync pairs by two. Sharply raises the user's Attack."
+  },
+  {
+    "name": "Lets Keep Cool",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Sp. Def and Speed of all allied sync pairs."
+  },
+  {
+    "name": "Make Some Sparks",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Attack. Ensures that the user's next attack will be a critical hit. When the field is Electric Terrain"
+  },
+  {
+    "name": "Mega Healing",
+    "uses": 1,
+    "target": "Ally",
+    "description": "Reduces the user's sync move countdown by one. If used by Mega Venusaur"
+  },
+  {
+    "name": "Move Gauge Boost",
+    "uses": 2,
+    "target": "Self",
+    "description": "Increases the user's move gauge by three."
+  },
+  {
+    "name": "Move Like A Shadow",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's evasiveness. Raises the user's critical-hit rate."
+  },
+  {
+    "name": "Move Like the Wind",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Speed and evasiveness"
+  },
+  {
+    "name": "My Destiny",
+    "uses": 2,
+    "target": "Self",
+    "description": "Drastically raises the user's Sp. Atk and Speed. Lowers the user's Defense and Sp. Def. If Charizard has Mega Evolved"
+  },
+  {
+    "name": "My Minds Made Up",
+    "uses": 1,
+    "target": "Self",
+    "description": "Changes the user's type to that of the target's weakness. This changes the user's own weakness type and the type of the user's Multi-Attack and Audacious Multi-Attack. Drastically raises the user's Speed."
+  },
+  {
+    "name": "New World Order",
+    "uses": 2,
+    "target": "Self",
+    "description": "Drastically raises the user's Sp. Atk and Speed. The user takes damage equal to 25% of its remaining HP."
+  },
+  {
+    "name": "No Hesitation",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Speed. Raises the user's critical-hit rate"
+  },
+  {
+    "name": "No Turning Back",
+    "uses": 2,
+    "target": "Self",
+    "description": "uses a maximum of three slots of the user's move gauge. Based on the amount used"
+  },
+  {
+    "name": "Not So Delicate",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Sp. Def and Speed."
+  },
+  {
+    "name": "Not Too Late to Bloom",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Attack. Makes the user gradually heal itself."
+  },
+  {
+    "name": "Now or Never",
+    "uses": 2,
+    "target": "Self",
+    "description": "Increases the user's move gauge by six. The user takes damage equal to half of its remaining HP."
+  },
+  {
+    "name": "Nowhere to Hide",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's evasiveness. Sharply raises the user's critical hit rate"
+  },
+  {
+    "name": "Of One Mind",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Sharply raises the Attack and Sp. Atk of all allied sync pairs"
+  },
+  {
+    "name": "On My Mark",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Defense"
+  },
+  {
+    "name": "Only the Best",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Defense and Sp. Atk."
+  },
+  {
+    "name": "Our Power Is Limitless",
+    "uses": 2,
+    "target": "Self",
+    "description": "If any of the target's stats have been raised"
+  },
+  {
+    "name": "Outstanding",
+    "uses": 1,
+    "target": "Opponent",
+    "description": "Makes opponents focus their attacks on the user. Drastically raises the user's Defense"
+  },
+  {
+    "name": "Outta My Way",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Sp. Atk and Speed by up to three stat ranks based on the amount remaining in the user's move gauge."
+  },
+  {
+    "name": "Over Here",
+    "uses": 2,
+    "target": "Self",
+    "description": "Makes opponent focus their attacks on the user. Makes the user gradually heal itself"
+  },
+  {
+    "name": "Over the Wall",
+    "uses": 2,
+    "target": "Self",
+    "description": "Increases the user's move gauge by two. Raises the user's accuracy. Makes the user gradually heal itself"
+  },
+  {
+    "name": "Pick Up The Pace",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Speed. Makes the user's next attack a sure hit and a critical hit"
+  },
+  {
+    "name": "Pierce the Veil",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Attack. Substantially raises the user's Attack if the user is affected by a status condition. Raises the user's Sp. Atk and evasiveness. Sharply raises the user's Sp. Atk and evasiveness if the user is affected by a status condition."
+  },
+  {
+    "name": "Potion",
+    "uses": 2,
+    "target": "Ally",
+    "description": "Restores an ally's HP by approximately 40% of its maximum HP"
+  },
+  {
+    "name": "Pour It On",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Sp. Atk. Drastically raises the user's Defense"
+  },
+  {
+    "name": "Prepare to Fight",
+    "uses": 2,
+    "target": "Self",
+    "description": "Restores a bit of the user's HP. Sharply raises the user's Sp. Def."
+  },
+  {
+    "name": "Race You",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Speed. Raises the user's critical-hit rate"
+  },
+  {
+    "name": "Raging Inferno",
+    "uses": 2,
+    "target": "Self",
+    "description": "Drastically raises the user's Attack. Sharply raises either the user's Defense"
+  },
+  {
+    "name": "Rawr",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Speed. Radically raises the user's Speed if the user is affected by a status condition. Sharply raises the user's critical-hit rate. Lowers the user's Defense and Sp. Def."
+  },
+  {
+    "name": "Rock-Hard Determination",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Attack and Defense"
+  },
+  {
+    "name": "Rock-Solid Finisher",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Defense. Makes the user's next attack a sure hit and a critical hit"
+  },
+  {
+    "name": "Rough Seas Ahead",
+    "uses": 1,
+    "target": "Self",
+    "description": "Makes opponents focus their attacks on the user. Makes the user able to endure the next hit it takes."
+  },
+  {
+    "name": "Run Along Now",
+    "uses": 2,
+    "target": "Self",
+    "description": "Radically raises the user's Speed. The user takes damage based on its maximum HP"
+  },
+  {
+    "name": "Scurry Ahead",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Defense. Drastically raises the user's Speed."
+  },
+  {
+    "name": "Second Wind",
+    "uses": 2,
+    "target": "Self",
+    "description": "Ensures that the user's next attack will be a critical hit. Makes the user able to endure the next hit it takes"
+  },
+  {
+    "name": "Sink or Swim",
+    "uses": 1,
+    "target": "Self",
+    "description": "Removes all status conditions from the user. Drastically raises the user's evasiveness and critical-hit rate. The user takes damage equal to 90% of its remaining HP. If used by Mega Sharpedo"
+  },
+  {
+    "name": "Sixth Sense",
+    "uses": 2,
+    "target": "Ally",
+    "description": "Restores a bit of an ally's HP. Drastically raises an ally's Sp. Atk. Raises an ally's accuracy."
+  },
+  {
+    "name": "Skate On Through",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Attack. Drastically raises the user's Speed"
+  },
+  {
+    "name": "Smell Ya Later",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's evasiveness"
+  },
+  {
+    "name": "Solo Act",
+    "uses": 2,
+    "target": "Self",
+    "description": "Charges the user's move gauge by two. Charges the user's move gauge by four if they are asleep. Raises the user's Attack and Sp. Atk. Sharply raises the user's Attack and Sp. Atk if they are asleep. If the user is asleep"
+  },
+  {
+    "name": "Spotlight",
+    "uses": "Please",
+    "target": 2,
+    "description": "Self"
+  },
+  {
+    "name": "Stand Strong",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Attack. Drastically raises the user's Defense"
+  },
+  {
+    "name": "Stand Together",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Defense and Speed of all allied sync pairs."
+  },
+  {
+    "name": "Stellar Imagination",
+    "uses": 2,
+    "target": "Self",
+    "description": "Removes the confused"
+  },
+  {
+    "name": "Stoke the Fire",
+    "uses": 2,
+    "target": "Self",
+    "description": "Restores a bit of the user's HP. Raises the user's Speed and evasiveness"
+  },
+  {
+    "name": "Stone-Cold Endurance",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Sp. Def. Makes the user able to endure the next hit it takes"
+  },
+  {
+    "name": "Strike Together",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Attack and Speed of all allied sync pairs."
+  },
+  {
+    "name": "Study Buddies",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Sharply raises the Sp. Atk and Speed of all allied Sync Pairs."
+  },
+  {
+    "name": "Sunny Side Up",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Attack"
+  },
+  {
+    "name": "Sure Crit",
+    "uses": 2,
+    "target": "Self",
+    "description": "Ensures that the user's next attack will be a critical hit"
+  },
+  {
+    "name": "Take Flight",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Sharply raises the Defense of all allied sync pairs. Sharply raises the Speed of all allied sync pairs"
+  },
+  {
+    "name": "The Definition of Art",
+    "uses": 2,
+    "target": "Self",
+    "description": "Restores a tiny bit of the user's HP. Ensures that the user's next attack will be a critical hit. Makes the user gradually heal itself"
+  },
+  {
+    "name": "The Power of Science",
+    "uses": 2,
+    "target": "Self",
+    "description": "Drastically raises the user's Attack and Speed. Sharply lowers the user's Defense."
+  },
+  {
+    "name": "There There",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's evasiveness and critical-hit rate. Restores a bit of the user's HP and charges the user's move gauge by two in a pinch."
+  },
+  {
+    "name": "This Match is Too Fun",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Speed and accuracy. These stats are sharply raised when the user is in a sandstorm."
+  },
+  {
+    "name": "Time to Energize",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Increases the move guages of all allied sync pairs by 3"
+  },
+  {
+    "name": "Time to Rock",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Sp. Def. Raises the user's critical-hit rate"
+  },
+  {
+    "name": "To the Top",
+    "uses": 2,
+    "target": "Self",
+    "description": "Makes move gauges accelerate on the allied field of play. Raises the critical-hit rate of all allied sync pairs."
+  },
+  {
+    "name": "Too Hot to Handle",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Defense. Raises the user's critical-hit rate."
+  },
+  {
+    "name": "Trust in Nature",
+    "uses": 2,
+    "target": "Self",
+    "description": "Increases the user's move gauge by two. Inverts changes to the usr's stats that have been lowered."
+  },
+  {
+    "name": "Try and Stop Us",
+    "uses": 2,
+    "target": "Self",
+    "description": "If the user's Speed has been raised"
+  },
+  {
+    "name": "Unbreakable Bonds",
+    "uses": 2,
+    "target": "All allies",
+    "description": "The lower the user's HP is"
+  },
+  {
+    "name": "Victory Is Mine",
+    "uses": 2,
+    "target": "Self",
+    "description": "Returns the user's lowered stats to normal. Raises the user's critcal-hit rate."
+  },
+  {
+    "name": "Were Not Done Yet",
+    "uses": 2,
+    "target": "Self",
+    "description": "Restores a bit of the user's HP. The lower the user's HP is"
+  },
+  {
+    "name": "Were On Fire",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Attack and Sp. Atk"
+  },
+  {
+    "name": "Were Standing Strong",
+    "uses": 1,
+    "target": "All allies",
+    "description": "Blocks status conditions on the allied field of play. Removes all status conditions from all allied sync pairs"
+  },
+  {
+    "name": "What Great Composition",
+    "uses": 2,
+    "target": "Opponent",
+    "description": "Raises the user's stats by the same amount that the target's stats have been raised"
+  },
+  {
+    "name": "Woo Refreshing",
+    "uses": 2,
+    "target": "Self",
+    "description": "Refreshes the number of times the user can use its quick moves by three. Sharply raises the user's Attack."
+  },
+  {
+    "name": "X Accuracy",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's accuracy"
+  },
+  {
+    "name": "X Accuracy All",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the Accuracy of all Allied Sync Pairs"
+  },
+  {
+    "name": "X Attack",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Attack"
+  },
+  {
+    "name": "X Attack All",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Sharply raises the Attack of all allied sync pairs."
+  },
+  {
+    "name": "X Defense",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Defense"
+  },
+  {
+    "name": "X Defense All",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Sharply raises the Defense of all allied sync pairs"
+  },
+  {
+    "name": "X Regen",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Makes sync pairs gradually heal themselves."
+  },
+  {
+    "name": "X Regen All",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Makes all allied sync pairs gradually heal themselves."
+  },
+  {
+    "name": "X Sp. Atk",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Sp. Atk"
+  },
+  {
+    "name": "X Sp. Atk All",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Sharply raises the Sp. Atk of all allied sync pairs"
+  },
+  {
+    "name": "X Sp. Def",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Sp. Def"
+  },
+  {
+    "name": "X Sp. Def All",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Sharply raises the Sp. Def of all allied Sync Pairs"
+  },
+  {
+    "name": "X Speed",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Speed"
+  },
+  {
+    "name": "X Speed All",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Sharply raises the Speed of all allied sync pairs"
+  },
+  {
+    "name": "You Snooze",
+    "uses": "You Lose",
+    "target": 2,
+    "description": "Self"
+  },
+  {
+    "name": "Youre Going Down",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Speed. Sharply raises the user's critical-hit rate"
+  },
+  {
+    "name": "Youre Gonna Need a Helmet",
+    "uses": 2,
+    "target": "Opponent",
+    "description": "Increases the user's move gauge by three. Makes the user's next attack a sure hit."
+  },
+  {
+    "name": "Unparalleled Power",
+    "uses": 2,
+    "target": "Self",
+    "description": "Radically raises the user's Sp. Atk. Sharply raises the user's Sp. Def and Speed. Drastically lowers the user's Defense."
+  },
+  {
+    "name": "Lei Up",
+    "uses": 1,
+    "target": "Self",
+    "description": "Restores a bit of HP for all allied sync pairs. Returns lowered stats of all allied sync pairs to normal. Raises the Defense of all allied sync pairs."
+  },
+  {
+    "name": "Gift of Joy",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the user's Speed and critical-hit rate. Sharply raises the Attack"
+  },
+  {
+    "name": "Laser-Sharp Focus",
+    "uses": 1,
+    "target": "Self",
+    "description": "Reduces the user's sync move countdown by one. Sharply raises the user's Attack. Ensures that the user's next attack will be a critical hit."
+  },
+  {
+    "name": "Ideals Will Prevail",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Speed. Raises the user's accuracy. Lowers the user's Defense. If the user does not have a sync buff"
+  },
+  {
+    "name": "Superior Might",
+    "uses": 2,
+    "target": "Self",
+    "description": "Charges the user's move gauge by three. Raises the user's Attack"
+  },
+  {
+    "name": "Alola Lang Syne",
+    "uses": 2,
+    "target": "Allied Field",
+    "description": "Blocks status conditions from affecting the allied field of play. Sharply raises the evasiveness of all allied sync pairs."
+  },
+  {
+    "name": "Mallow Special",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Speed"
+  },
+  {
+    "name": "Ready for This?",
+    "uses": 2,
+    "target": "Self",
+    "description": "Charges the user's move gauge by two. Raises the user's Sp. Atk and critical-hit rate."
+  },
+  {
+    "name": "Fake Tears",
+    "uses": 2,
+    "target": "Opponent",
+    "description": "Sharply lowers the target's Sp. Def"
+  },
+  {
+    "name": "How Sweet",
+    "uses": 2,
+    "target": "Ally",
+    "description": "Sharply raises an ally's Attack and Sp. Atk. Makes an ally gradually heal itself."
+  },
+  {
+    "name": "Sugar Rush",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the user's Sp. Atk. Sharply raises the Speed of all allied sync pairs. Applies the Free Move Next effect to the user."
+  },
+  {
+    "name": "The World Is Vast",
+    "uses": 1,
+    "target": "Allied Field",
+    "description": "Makes move gauges accelerate on the allied field of play. Removes all status conditions from all allied sync pairs. Makes all allied sync pairs gradually heal themselves."
+  },
+  {
+    "name": "End the World",
+    "uses": 2,
+    "target": "Self",
+    "description": "Charges the user's move gauge by two. Reduces the user's sync move countdown by one. Sharply raises the user's critical-hit rate. Lowers the user's Defense and Sp. Def."
+  },
+  {
+    "name": "Shout My name",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Charges the move gauges of all allied sync pairs by two. Makes the user able to endure the next hit it takes that would reduce it to 0 HP."
+  },
+  {
+    "name": "Strike a Pose",
+    "uses": 1,
+    "target": "Self",
+    "description": "Reduces the user's sync move countdown by one. Sharply raises the user's Attack and Sp. Atk. Raises the user's critical-hit rate. Applies the Free Move Next effect to the user. Lowers the user's Defense and Sp. Def."
+  },
+  {
+    "name": "Snack Time",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Attack. If the user's Speed has been raised"
+  },
+  {
+    "name": "Three Heads",
+    "uses": 1,
+    "target": "Opponent",
+    "description": "Makes move gauges accelerate on the allied field of play. Reduces the user's sync move countdown by one. Sharply raises the user's Attack. Raises the user's critical-hit rate."
+  },
+  {
+    "name": "Time to Shine",
+    "uses": 2,
+    "target": "Opponent",
+    "description": "Sharply raises the user's Sp. Atk and Sp. Def. If used by Mega Gardevoir"
+  },
+  {
+    "name": "Happy Colors",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the accuracy of all allied sync pairs. Raises the Defense and Sp. Def of all allied Sync Pairs by one to three stat ranks at random"
+  },
+  {
+    "name": "Hippity Hoppity",
+    "uses": 2,
+    "target": "All allies",
+    "description": "If used by Lopunny"
+  },
+  {
+    "name": "If used by Lopunny",
+    "uses": "sharply raises the user's evasiveness.",
+    "target": "",
+    "description": ""
+  },
+  {
+    "name": "If used by Mega Lopunny",
+    "uses": "raises the user's accuracy",
+    "target": "",
+    "description": ""
+  },
+  {
+    "name": "If used by Mega Lopunny",
+    "uses": "drastically raises the user's evasiveness",
+    "target": "",
+    "description": ""
+  },
+  {
+    "name": "Sing",
+    "uses": 1,
+    "target": "Opponent",
+    "description": "Puts the target to sleep"
+  },
+  {
+    "name": "Weve Got Tricks",
+    "uses": 1,
+    "target": "All allies",
+    "description": "Raises the Speed of all allied sync pairs. uses a maximum of three slots of the user's move gauge. Based on the amount used"
+  },
+  {
+    "name": "Stare Em Down",
+    "uses": 1,
+    "target": "Self",
+    "description": "Sharply raises the user's Defense"
+  },
+  {
+    "name": "Top This",
+    "uses": 1,
+    "target": "Self",
+    "description": "Sharply raises the user's critical hit rate. Applies the Supereffective Up Next effect to the user. Applies the Free Move next effect to the user. Makes the user gradually heal itself. Lowers the user's Sp. Def"
+  },
+  {
+    "name": "Mwahaha",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's critical-hit rate. Raises the user's Sp. Atk by up to three stat ranks based on how low their HP is."
+  },
+  {
+    "name": "Wash Em Away",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Attack. Raises the user's critical-hit rate. In addition"
+  },
+  {
+    "name": "Hold Strong",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Defense. Raises the user's evasiveness. Makes the user gradually heal itself"
+  },
+  {
+    "name": "Ready to Rock",
+    "uses": 2,
+    "target": "Ally",
+    "description": "Restores abit of an ally's HP. Sharply raises an ally's Defense. Makes an ally gradually heal itself"
+  },
+  {
+    "name": "Justice for All",
+    "uses": 2,
+    "target": "Self",
+    "description": "Makes move gauges accelerate on the allied field of play. Sharply raises the Defense of all allied Sync Pairs"
+  },
+  {
+    "name": "I See You",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Sharply raises the Defense and Sp. Def of all allied Sync Pairs"
+  },
+  {
+    "name": "Status Shield",
+    "uses": 2,
+    "target": "Allied Field",
+    "description": "Blocks status moves from affecting the allied field of play"
+  },
+  {
+    "name": "Real Nice",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Defense"
+  },
+  {
+    "name": "Tangle with This",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Sp. Atk and Sp. Def"
+  },
+  {
+    "name": "Go Wild",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Attack. Makes the user gradually heal itself."
+  },
+  {
+    "name": "Karpe Diem",
+    "uses": 1,
+    "target": "All allies",
+    "description": "uses a maximum of three slots of the user's move gauge. Based on the amount used"
+  },
+  {
+    "name": "Expand the Land",
+    "uses": 2,
+    "target": "Self",
+    "description": "Sharply raises the user's Attack and Sp. Atk. Lowers the user's Defense and Sp. Def. In addition"
+  },
+  {
+    "name": "Open the Oceans",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's accuracy. Drastically raises the user's critical-hit rate. Sharply lowers the user's Defense and Sp. Def. In addition"
+  },
+  {
+    "name": "Dancing Fever",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Attack"
+  },
+  {
+    "name": "Make Em Holla",
+    "uses": 1,
+    "target": "Self",
+    "description": "Radically raises the user's Attack. Raises the user's accuracy. Makes the user able to endure the next hit it takes that would reduce it to 0 HP"
+  },
+  {
+    "name": "Ready Fight",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the user's evasiveness. Drastically raises the Speed of all allied sync pairs."
+  },
+  {
+    "name": "Ten-hut",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Defense of all allied sync pairs. Sharply raises the critical-hit rate of all allied sync pairs."
+  },
+  {
+    "name": "All Aboard",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Attack of all allied sync pairs by 1 stat rank. Raises the critical-hit rate of all allied Sync Pairs by 2 stat ranks. Applies the Free Move Next effect to all allied sync pairs during a sandstorm"
+  },
+  {
+    "name": "Right on Track",
+    "uses": 1,
+    "target": "Self",
+    "description": "Raises the user's attack by 6 stat ranks. Raises the user's accuracy by 2 stat ranks. Lowers the user's Defense by 1 stat rank. Applies the Damage Guard Next effect to the user. (If hit by an attack while this effect is applied"
+  },
+  {
+    "name": "Scope Em Out",
+    "uses": 1,
+    "target": "Self",
+    "description": "Raises the user's Sp. Atk and Speed by 1 stat rank. Applies the Critical Hit Next effect to the user. Applies the Supereffective Next effect to the user"
+  },
+  {
+    "name": "Not Today",
+    "uses": 1,
+    "target": "Self",
+    "description": "Applies the Gradual Healing effect to the user. Applies the Enduring effect to the user. When the user's Defense is raised"
+  },
+  {
+    "name": "No Stone Unturned",
+    "uses": 2,
+    "target": "Self",
+    "description": "Applies the Move Gauge Acceleration Effect to the allied field of play. Raises the critical-hit rate of all allied sync pairs by 1 stat rank"
+  },
+  {
+    "name": "Protect Us All",
+    "uses": 1,
+    "target": "All allies",
+    "description": "Raises the Defense and Sp. Def of all allied sync pairs by four stat ranks"
+  },
+  {
+    "name": "Follow my Lead",
+    "uses": 1,
+    "target": "Self",
+    "description": "Applies the Stat Reduction Defense effect to the allied field of play. Reduces the user's sync move countdown by 1. Raises the user's critical-hit rate by 3 stat ranks. Applies the Gradual Healing effect to all Sync Pairs"
+  },
+  {
+    "name": "Helloooo",
+    "uses": 1,
+    "target": "Ally",
+    "description": "Restores an ally's HP by approximately 60% of its maximum HP. Removes all status conditions from an ally. Removes the confused"
+  },
+  {
+    "name": "Forever Loyal",
+    "uses": 1,
+    "target": "All allies",
+    "description": "Applies the Move Gauge Acceleration effect to the allied field of play. Raises the Attack and Sp. Atk of all allied sync pairs by 2 stat ranks. Raises the Defense and Sp. Def of all llied sync pairs by 1 stat rank"
+  },
+  {
+    "name": "Eternal Power",
+    "uses": 2,
+    "target": "Self",
+    "description": "Reduces the user's sync move countdown by 1. Raises the user's Sp. Atk by 3 stat ranks. Applies the Superreffective Next effect to the user. Lowers the user's Sp. Def by 1 stat rank"
+  },
+  {
+    "name": "No Hard Feelings",
+    "uses": 1,
+    "target": "Self",
+    "description": "uses a maximum of 3 slots of the user's move gauge. The more amount used"
+  },
+  {
+    "name": "Soar",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Attack and Sp. Atk of all alied sync pairs by 2 stat ranks. Raises the user's Speed by 1 stat rank"
+  },
+  {
+    "name": "Hop to It",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Attack of all allied sync pairs by 2 stat ranks. Raises the Defense and critical hit rate of all allied sync pairs by 1 stat rank"
+  },
+  {
+    "name": "X Speed +",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Speed by 3 stat ranks"
+  },
+  {
+    "name": "Shining Moonlight",
+    "uses": 1,
+    "target": "Self",
+    "description": "Raises the user's Sp. Atk by 6 stat ranks. Raises the user's critical-hit rate by 3 stat ranks"
+  },
+  {
+    "name": "Truth Will Prevail",
+    "uses": 2,
+    "target": "Self",
+    "description": "Applies the Move Gauge Acceleration effect to the allied field of play. Raises the user's Sp. Atk by 3 stat ranks. Raises the user's accuracy by 1 stat rank"
+  },
+  {
+    "name": "Sky High",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's critical-hit rate by 3 stat ranks. Applies the Suppereffective Next effect to the user. When used by Mega Rayquaza"
+  },
+  {
+    "name": "Duck and Cover",
+    "uses": 1,
+    "target": "All allies",
+    "description": "Raises the Defense and Sp. Def of all allied sync pairs by 2 stat ranks. Applies the Gradual healing effect to all allied sync pairs"
+  },
+  {
+    "name": "Mini Potion All",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Restores the HP of all allied sync pairs by approximately 20% of their maximum HP."
+  },
+  {
+    "name": "You and Me",
+    "uses": 2,
+    "target": "Ally",
+    "description": "Reduces the sync move countdown of an allied sync pair by 1. Raises an ally's critical-hit rate by 2 stat ranks. Applies the Supereffective Next effect to an ally."
+  },
+  {
+    "name": "Bonjour",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Attack and Sp. Atk by 3 stat ranks. Lowers the user's Defense and Sp. Def by 1 stat rank. When used by Mega Aerodactyl"
+  },
+  {
+    "name": "Go with the Flow",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the user's Defense by 2 stat ranks. Raises the Sp. Def of all allied sync pairs by 2 stat ranks."
+  },
+  {
+    "name": "Soak Up the Sun",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the user's Attack by 2 stat ranks. Raises the user's critical-hit rate by 1 stat rank. In addition"
+  },
+  {
+    "name": "Have at You",
+    "uses": 1,
+    "target": "All allies",
+    "description": "Raises the user's Attack by 3 stat ranks. Raises the Speed of all allied sync pairs by 3 stat ranks. Applies the Gradual Healing effect to the user."
+  },
+  {
+    "name": "Tricksy",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Attack of all allied sync pairs by 2 stat ranks. Raises the Speed and accuracy of all allied sync pairs by 1 stat rank. When used by Mega Sableye"
+  },
+  {
+    "name": "Into the Night",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Attack and Defense by 2 stat ranks. Raises the user's accuracy by 1 stat rank."
+  },
+  {
+    "name": "No Escape",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Sp. Atk and critical-hit rate by 2 stat ranks. Applies the Free Move Next effect to the user."
+  },
+  {
+    "name": "X Sure Hit",
+    "uses": 2,
+    "target": "Self",
+    "description": "Applies the Sure Hit Next effect to the user."
+  },
+  {
+    "name": "Show No Mercy",
+    "uses": 1,
+    "target": "Self",
+    "description": "Raises the user's Attack by 6 stat ranks. Raises the user's critical-hit rate by 3 stat ranks. Lowers the user's Defense and Sp. Def by 1 stat rank."
+  },
+  {
+    "name": "Steel Yourselves",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Sp. Def of all allied sync pairs by 3 stat ranks. Raises the critical-hit rate of all allied sync pairs by 1 stat rank."
+  },
+  {
+    "name": "Strike True",
+    "uses": 1,
+    "target": "Self",
+    "description": "Raises the user's Sp. Atk by 4 stat ranks. Raises the user's critical-hit rate by 3 stat ranks. Applies the Gradual Healing effect to the user."
+  },
+  {
+    "name": "Shine On",
+    "uses": 1,
+    "target": "Self",
+    "description": "Raises the user's Speed and accuracy by 2 stat ranks. Raises the user's critical-hit rate by 3 stat ranks."
+  },
+  {
+    "name": "Stay Sharp",
+    "uses": 1,
+    "target": "Self",
+    "description": "Raises the user's Attack by 6 stat ranks. Raises the user's critical-hit rate by 3 stat ranks. Applies the Supereffective ? Next effect to the user. Applies the Enduring effect to the user. Lowers the user's Defense and Sp. Def by 6 stat ranks."
+  },
+  {
+    "name": "Sparkle and Shine",
+    "uses": 1,
+    "target": "All allies",
+    "description": "Reduces the user's sync move countdown by 1. Raises the user's Sp. Atk by 4 stat ranks. Raises the Sp.Â Def of all allied sync pairs by 2 stat ranks."
+  },
+  {
+    "name": "Luminous Love",
+    "uses": 1,
+    "target": "Self",
+    "description": "Reduces the user's sync move countdown by 2. Raises the user's Sp. Atk by 6 stat ranks. Lowers the user's Speed by 1 stat rank."
+  },
+  {
+    "name": "Champion Gift",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Attack and Defense by 2 stat ranks."
+  },
+  {
+    "name": "From Me to You",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Attack by 2 stat ranks. Raises the user's critical-hit rate by 1 stat rank. In addition"
+  },
+  {
+    "name": "Ruff Buff",
+    "uses": 2,
+    "target": "All allies",
+    "description": "Raises the Attack and Defense of all allied sync pairs by 2 stat ranks."
+  },
+  {
+    "name": "Dragon Wish",
+    "uses": 2,
+    "target": "Field",
+    "description": "Changes a zone to a Dragon Zone. (A Dragon Zone powers up Dragon-type attacks.)"
+  },
+  {
+    "name": "It's Our Time",
+    "uses": 1,
+    "target": "Self",
+    "description": "Raises the user's Sp. Atk by 2 stat ranks. Raises the user's accuracy by 1 stat rank. Raises the user's critical-hit rate by 3 stat ranks."
+  },
+  {
+    "name": "It's Electric",
+    "uses": 2,
+    "target": "Self",
+    "description": "Raises the user's Speed by 2 stat ranks. Raises the user's accuracy and critical-hit rate by 1 stat rank."
+  },
+  {
+    "name": "Ghost Wish",
+    "uses": 2,
+    "target": "Field",
+    "description": "Changes a zone to a Ghost Zone. (A Ghost Zone powers up Ghost-type attacks.)"
+  },
+  {
+    "name": "Show Me Your Secrets",
+    "uses": 1,
+    "target": "Self",
+    "description": "Raises the user's Attack and Sp. Atk by 4 stat ranks. Raises the user's critical-hit rate by 3 stat ranks. Lowers the user's Defense and Sp. Def by 1 stat rank."
+  },
+  {
+    "name": "Condition Shield",
+    "uses": 2,
+    "target": "Allied Field",
+    "description": "Applies the Status Condition Defense effect to the allied field of play."
+  },
+  {
+    "name": "Clear Your Mind",
+    "uses": 2,
+    "target": "Ally",
+    "description": "Restores an ally's HP by approximately 40% of its maximum HP. Applies the Enduring effect to an ally."
+  }
+]
