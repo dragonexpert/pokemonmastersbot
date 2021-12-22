@@ -36,5 +36,16 @@
   "Lessen Flinch 6", "Lessen Flinch 7", "Lessen Flinch 8", "Lessen Flinch 9", "Lessen Trap 6", "Lessen Trap 7", "Lessen Trap 8", "Lessen Trap 9", "Sand Shelter"],
   "crispy3": ["Antitoxin", "Flameproof", "Lithe", "Antifreeze", "Snow Shelter", "Wide Awake", "Clear Headed", "Unflappable", "Escape Artist", "Sand Shelter"],
   "chewy": ["Normal Guard", "Fire Guard", "Water Guard", "Electric Guard", "Grass Guard", "Ice Guard", "Fighting Guard", "Poison Guard", "Ground Guard",
-  "Flying Guard", "Psychic Guard", "Bug Guard", "Rock Guard", "Ghost Guard", "Dragon Guard", "Dark Guard", "Steel Guard", "Fairy Guard"]
+  "Flying Guard", "Psychic Guard", "Bug Guard", "Rock Guard", "Ghost Guard", "Dragon Guard", "Dark Guard", "Steel Guard", "Fairy Guard"],
+  "deluxe1": ["Move Gauge Refresh 2", "Revenge Boost 4", "Power Reserves 2", "Superdupereffective 1", "Power Flux 3", "Critical Strike 2", "Weathered Warrior 3", "Super Powered 3",
+  "Head Start 1", "Adrenaline 1", "Antitoxin", "Flameproof", "Lithe", "Antifreeze", "Clearheaded", "Unflappable", "Escape Artist", "Interference Immunity", "Status Immunity",
+  "Healthy Healing", "Supreme Entry", "Headstrong", "Unbending", "Dauntless", "Stalwart", "Haste", "Acuity", "Fast-Track 2", "Mad Strength 2", "Defense Crush 2", "Speedy Entry 1",
+  "Speedy Entry 2", "Sharp Entry 1", "Grand Entry 1", "Grand Entry 2", "Sentry Entry 1", "Sentry Entry 2", "Fierce Entry 1", "Fierce Entry 2", "Mind Games 2", "Wise Entry 1",
+  "Wise Entry 2", "Troublemaker 1", "Pinpoint Entry 2", "Witty Hit 2", "Vigilance"],
+  "deluxe2": ["Move Gauge Refresh 2", "Revenge Boost 4", "Power Reserves 2", "Superdupereffective 1", "Power Flux 3", "Critical Strike 2", "Weathered Warrior 3", "Super Powered 3",
+    "Head Start 1", "Adrenaline 1", "Antitoxin", "Flameproof", "Lithe", "Antifreeze", "Clearheaded", "Unflappable", "Escape Artist", "Interference Immunity", "Status Immunity",
+    "Healthy Healing", "Supreme Entry", "Headstrong", "Unbending", "Dauntless", "Stalwart", "Haste", "Acuity", "Speedy Entry 2", "Sharp Entry 1", "Grand Entry 2", "Sentry Entry 1",
+    "Sentry Entry 2", "Fierce Entry 2", "Wise Entry 1", "Wise Entry 2", "Troublemaker 1", "Pinpoint Entry 2", "Vigilance"],
+  "deluxe3": ["Move Gauge Refresh 2", "Revenge Boost 4", "Critical Strike 2", "Weathered Warrior 3", "Super Powered 3", "Head Start 1", "Adrenaline 1", "Interference Immunity",
+  "Status Immunity", "Healthy Healing", "Supreme Entry", "Vigilance"]
 }
