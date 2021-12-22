@@ -43,7 +43,7 @@ The bot prefix is **pm!** and is currently not changeable at the guild level. It
 
 - **maxstrength**: States what the current maximum collective strength is.  Includes datamined sync pairs.  It also makes all eggs as 5*, 20/20, and max affinity.
 
-- **move** [move_name]: View data about a particular move.  Trainer Moves not included in this command.
+- **move** [move_name]: View data about a particular move.  Trainer Moves are now included. Do not use exclamation marks, apostrophe's, or triple period.
  
 > Slash commands are not currently implemented. I would like to make them at some point.
  
