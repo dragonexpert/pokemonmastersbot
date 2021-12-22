@@ -77,6 +77,18 @@ module.exports = {
         {
             skills = cookies.chewy.toString();
         }
+        else if(searchterm === "deluxe1")
+        {
+            skills = cookies.deluxe1.toString();
+        }
+        else if(searchterm === "deluxe2")
+        {
+            skills = cookies.deluxe2.toString();
+        }
+        else if(searchterm === "deluxe3")
+        {
+            skills = cookies.deluxe3.toString();
+        }
         else
         {
             return "Invalid Cookie: " + searchterm;

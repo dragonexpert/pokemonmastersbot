@@ -74,6 +74,21 @@ module.exports = {
                 results += comma + "Chewy";
                 comma = ", ";
             }
+            if(myArray.deluxe1.includes(searchterm))
+            {
+                results += comma + "Deluxe Bronze";
+                comma = ", ";
+            }
+            if(myArray.deluxe2.includes(searchterm))
+            {
+                results += comma + "Deluxe Silver";
+                comma = ", ";
+            }
+            if(myArray.deluxe3.includes(searchterm))
+            {
+                results += comma + "Deluxe Gold";
+                comma = ", ";
+            }
             if(results === "")
             {
                 return "No cookies were found for the skill: " + searchterm + "!";

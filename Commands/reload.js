@@ -66,7 +66,9 @@ module.exports = {
         {
             delete require.cache[require.resolve("../Passives/passives.json")];
             const passives = require("../Passives/passives.json");
-            msg.channel.send("Passives cache reloaded.");
+            delete require.cache[require.resolve("../Passives/cookies.json")];
+            const cookies = require("../Passives/cookies.json");
+            msg.channel.send("Passives and Lucky Skills cache reloaded.");
         }
         catch (Exception)
         {
@@ -77,6 +79,8 @@ module.exports = {
         {
             delete require.cache[require.resolve("../Moves/moves.json")];
             const movedata = require("../Moves/moves.json");
+            delete require.cache[require.resolve("../Moves/tms.json")];
+            const tmdata = require("../Moves/tms.json");
         }
         catch (Exception)
         {
