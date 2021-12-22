@@ -20,10 +20,12 @@ module.exports = {
         // Weekly regular champion stadium
         let stadium_total = Math.ceil(((timestamp - championspirits.championstadium) * 25) / (86400 * 7));
         let mastermode_total = Math.ceil(((timestamp - championspirits.mastermode) * 10) / (86400 * 7));
+        let mastermode_additional = Math.ceil(((timestamp - championspirits.championsatdiumadditional) * 25) / (86400 * 7));
         let event_total = Math.ceil(championspirits.event);
         let first_clear_total = championspirits.first_clear;
         let monthly_total = Math.ceil(((timestamp - championspirits.monthly) * 50) / (86400 * 365.25 / 12));
-        let spirit_total = stadium_total + mastermode_total + event_total + first_clear_total + monthly_total;
+        let alola_penalty = 10;
+        let spirit_total = stadium_total + mastermode_total + mastermode_additional + event_total + first_clear_total + monthly_total - alola_penalty;
         ex_total = Math.floor(spirit_total / 50) + championspirits.legendaryex;
         return "The maximum amount of EX Sync Pairs a player can have is " + ex_total;
     }

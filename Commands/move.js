@@ -9,6 +9,7 @@ module.exports = {
     "execute": (msg, args) =>
     {
         const movedata = require("../Moves/moves.json");
+        const tmdata = require("../Moves/tms.json");
         delete require.cache[require.resolve("../Moves/moves.json")];
         msg.moveData = new Discord.Collection();
         for (x in movedata)
@@ -16,12 +17,20 @@ module.exports = {
             const info = movedata[x];
             msg.moveData.set(info.name, info);
         }
+        for (y in tmdata)
+        {
+            const tminfo = tmdata[y];
+            msg.moveData.set(tminfo.name, tminfo);
+        }
         let splitter = args.split(" ");
         let keyword = "";
         let space = "";
         // Format the code properly
         for (y in splitter)
         {
+            splitter[y] = splitter[y].replace("!", "");
+            splitter[y] = splitter[y].replace("'", "");
+            splitter[y] = splitter[y].replace("...", "");
             keyword += space + splitter[y].substring(0, 1).toUpperCase() + splitter[y].substring(1).toLowerCase();
             space = " ";
         }
@@ -45,7 +54,7 @@ module.exports = {
         let syncpairs = msg.syncPairs.filter(user => user.moves.includes(keyword));
         if(syncpairs.size === 0)
         {
-            return "There are no sync pairs that can learn this move.";
+            return module.exports.format_output(moveinfo);
         }
         let output = "The following sync pairs can learn this move: ";
         let comma = "";
@@ -60,15 +69,27 @@ module.exports = {
     "format_output": (data) =>
     {
         let message = "Data for " + data.name;
-        message += "\nType: " + data.type;
-        message += "\nCategory: " + data.category;
-        if(data.category !== "Other")
+        if(data.hasOwnProperty("type"))
         {
-            message += "\nMax Power: " + data.power;
+            // Battle Move
+            message += "\nType: " + data.type;
+            message += "\nCategory: " + data.category;
+            if (data.category !== "Other")
+            {
+                message += "\nMax Power: " + data.power;
+            }
+            message += "\nMove Slots: " + data.move_slots;
+            message += "\nTarget: " + data.target;
+            message += "\nDescription: " + data.description;
+            return message;
         }
-        message += "\nMove Slots: " + data.move_slots;
-        message += "\nTarget: " + data.target;
-        message += "\nDescription: " + data.description;
-        return message;
+        else
+        {
+            // TM Move
+            message += "\nUses: " + data.uses;
+            message += "\nTarget: " + data.target;
+            message += "\nDescription: " + data.description;
+            return message;
+        }
     }
 }

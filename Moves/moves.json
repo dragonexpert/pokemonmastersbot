@@ -2578,5 +2578,55 @@
     "move_slots": 4,
     "target": "All opponents",
     "description": "Has a chance (50%) of raising the user's Defense by 2 stat ranks."
+  },
+  {
+    "name": "Metal Burst",
+    "type": "Steel-type",
+    "category": "Physical Category Move",
+    "power": "150-180",
+    "accuracy": 100,
+    "move_slots": 3,
+    "target": "Opponent",
+    "description": "The user takes up a counterattacking posture. Using this move again will cause the user to leave this posture. No other actions can be taken while in this posture. The user will leave this posture if hit by an attack move while it is in this counterattacking posture"
+  },
+  {
+    "name": "Prismatic Laser",
+    "type": "Psychic-type",
+    "category": "Special Category Move",
+    "power": "160-192",
+    "accuracy": 100,
+    "move_slots": 4,
+    "target": "Opponent",
+    "description": "No additional effect"
+  },
+  {
+    "name": "Glacial Lance",
+    "type": "Ice-type",
+    "category": "Physical Category Move",
+    "power": "160-192",
+    "accuracy": 100,
+    "move_slots": 4,
+    "target": "All opponents",
+    "description": "No additional effect"
+  },
+  {
+    "name": "Roar of Time",
+    "type": "Dragon-type",
+    "category": "Special",
+    "power": "178-213",
+    "accuracy": 90,
+    "move_slots": 4,
+    "target": "Opponent",
+    "description": "No additional effect"
+  },
+  {
+    "name": "Shadow Force",
+    "type": "Ghost-type",
+    "category": "Physical",
+    "power": "200-240",
+    "accuracy": 100,
+    "move_slots": 3,
+    "target": "Opponent",
+    "description": "The user takes on a shadow presence. After a set time"
   }
 ]

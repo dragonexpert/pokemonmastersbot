@@ -27,11 +27,15 @@ module.exports = {
 
         // Start working on Champion Stadium which is weekly.
         let stadium_difference = timestamp - BPDATA.championstadium;
+        let stadium_additional = timestamp - BPDATA.championsatdiumadditional;
+
         // Parenthesis between 86400 and 7 to ensure consistent behavior in any environment.
         let weekly_total = Math.ceil(stadium_difference / ( 86400 * 7)) * 40;
+        let weekly_additional = Math.ceil(stadium_additional / (86400 * 7)) * 10;
 
         let event_total = BPDATA.event;
-        let maxbp = daily_total + weekly_total + event_total;
+        let alola_penalty = 40;
+        let maxbp = daily_total + weekly_total + weekly_additional + event_total - alola_penalty;
         return "The maximum BP so far is " +  Intl.NumberFormat("en-US").format(maxbp) + ".";
     }
 }
