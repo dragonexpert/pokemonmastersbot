@@ -2628,5 +2628,35 @@
     "move_slots": 3,
     "target": "Opponent",
     "description": "The user takes on a shadow presence. After a set time"
+  },
+  {
+    "name": "Dark Void",
+    "type": "Dark-type",
+    "category": "Other Category Move",
+    "power": "",
+    "accuracy": 80,
+    "move_slots": 2,
+    "target": "All opponents",
+    "description": "Puts the target to sleep."
+  },
+  {
+    "name": "Moonlight",
+    "type": "Fairy-type",
+    "category": "Other Category Move",
+    "power": "",
+    "accuracy": "",
+    "move_slots": 2,
+    "target": "Self",
+    "description": "Restores the user's HP by approximately 50% of its maximum HP. HP is restored by 60% instead when the weather is sunny"
+  },
+  {
+    "name": "Growl",
+    "type": "Normal-type",
+    "category": "Other Category Move",
+    "power": "",
+    "accuracy": "",
+    "move_slots": 1,
+    "target": "All opponents",
+    "description": "Lowers the target's Attack by 1 stat rank."
   }
 ]

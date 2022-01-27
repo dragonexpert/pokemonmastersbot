@@ -516,5 +516,15 @@
   "invigoratingshadow": "Charges the user's move gauge by X when it takes on a shadow presence.",
   "supershadow": "Applies the Supereffective ? Next effect to the user when it takes on a shadow presence.",
   "teamsmartcommand": "Has a chance of increasing the Special MovesÂ ? Next effect of all allied sync pairs by one rank when the user's Trainer uses a move.",
-  "sharpteamwork": "Has a chance of raising the critical-hit rate of all allied sync pairs by one stat rank when the user's attack move is successful."
+  "sharpteamwork": "Has a chance of raising the critical-hit rate of all allied sync pairs by one stat rank when the user's attack move is successful.",
+  "fireshift": "Normal-type moves become Fire-type moves.",
+  "superpowered": "Powers up the user's moves and sync move that are super effective.",
+  "syncsnooze": "Puts all opposing sync pairs to sleep after using the user's sync move.",
+  "badbreak": "Lowers one of the following stats of all opposing sync pairs by one stat rank at random when the user's Pokemon uses a status move: Attack, Defense, Sp. Atk, Sp. Def, Speed, accuracy, or evasiveness.",
+  "sharednightmare": "Deals additional damage to all opposing sync pairs that are asleep when the user's Pokemon uses a move (Type: Dark, Category: Special). This additional damage is not affected by some status changes.",
+  "fortify": "The user's Defense and Sp. Def increase 30% when its remaining HP is at half or below.",
+  "teambrainstorm": "Increases the Special Moves ? Next effect of all allied sync pairs by one rank when the user's Pokemon uses a status move while its remaining HP is at half or below.",
+  "syncdamageguard": "Applies the Damage Guard Next effect to the user the first time its sync move is used each battle.",
+  "enfeeble": "Lowers the Defense of all opposing sync pairs by X stat ranks when the user enters a battle.",
+  "hailandhearty": "The user's Defense and Sp. Def increase 30% during a hailstorm."
 }

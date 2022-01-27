@@ -87,7 +87,7 @@
     "name": "Beat Em Down",
     "uses": 2,
     "target": "Self",
-    "description": "uses a maximum of three slots of the user's move gauge. Based on the amount used"
+    "description": "Uses a maximum of three slots of the user's move gauge. Based on the amount used"
   },
   {
     "name": "Beehold My Research",
@@ -351,7 +351,7 @@
     "name": "Its All about Focus",
     "uses": 2,
     "target": "Self",
-    "description": "uses a maximum of three of the user's move gauge. Based on the amount used"
+    "description": "Uses a maximum of three of the user's move gauge. Based on the amount used"
   },
   {
     "name": "Its All Down to This",
@@ -465,7 +465,7 @@
     "name": "No Turning Back",
     "uses": 2,
     "target": "Self",
-    "description": "uses a maximum of three slots of the user's move gauge. Based on the amount used"
+    "description": "Uses a maximum of three slots of the user's move gauge. Based on the amount used"
   },
   {
     "name": "Not So Delicate",
@@ -1008,7 +1008,7 @@
     "description": "Charges the user's move gauge by two. Reduces the user's sync move countdown by one. Sharply raises the user's critical-hit rate. Lowers the user's Defense and Sp. Def."
   },
   {
-    "name": "Shout My name",
+    "name": "Shout My Name",
     "uses": 2,
     "target": "All allies",
     "description": "Charges the move gauges of all allied sync pairs by two. Makes the user able to endure the next hit it takes that would reduce it to 0 HP."
@@ -1077,7 +1077,7 @@
     "name": "Weve Got Tricks",
     "uses": 1,
     "target": "All allies",
-    "description": "Raises the Speed of all allied sync pairs. uses a maximum of three slots of the user's move gauge. Based on the amount used"
+    "description": "Raises the Speed of all allied sync pairs. Uses a maximum of three slots of the user's move gauge. Based on the amount used"
   },
   {
     "name": "Stare Em Down",
@@ -1155,7 +1155,7 @@
     "name": "Karpe Diem",
     "uses": 1,
     "target": "All allies",
-    "description": "uses a maximum of three slots of the user's move gauge. Based on the amount used"
+    "description": "Uses a maximum of three slots of the user's move gauge. Based on the amount used"
   },
   {
     "name": "Expand the Land",
@@ -1257,7 +1257,7 @@
     "name": "No Hard Feelings",
     "uses": 1,
     "target": "Self",
-    "description": "uses a maximum of 3 slots of the user's move gauge. The more amount used"
+    "description": "Uses a maximum of 3 slots of the user's move gauge. The more amount used"
   },
   {
     "name": "Soar",
@@ -1428,13 +1428,13 @@
     "description": "Changes a zone to a Dragon Zone. (A Dragon Zone powers up Dragon-type attacks.)"
   },
   {
-    "name": "It's Our Time",
+    "name": "Its Our Time",
     "uses": 1,
     "target": "Self",
     "description": "Raises the user's Sp. Atk by 2 stat ranks. Raises the user's accuracy by 1 stat rank. Raises the user's critical-hit rate by 3 stat ranks."
   },
   {
-    "name": "It's Electric",
+    "name": "Its Electric",
     "uses": 2,
     "target": "Self",
     "description": "Raises the user's Speed by 2 stat ranks. Raises the user's accuracy and critical-hit rate by 1 stat rank."
@@ -1462,5 +1462,47 @@
     "uses": 2,
     "target": "Ally",
     "description": "Restores an ally's HP by approximately 40% of its maximum HP. Applies the Enduring effect to an ally."
+  },
+  {
+    "name": "Cant Be Beat!",
+    "uses": "Other Category Move",
+    "target": 2,
+    "description": "Self"
+  },
+  {
+    "name": "Dark Wish",
+    "uses": "Other Category Move",
+    "target": 2,
+    "description": "Field"
+  },
+  {
+    "name": "Perpetual Nightmare!",
+    "uses": "Other Category Move",
+    "target": 2,
+    "description": "Self"
+  },
+  {
+    "name": "Sweet Dreams!",
+    "uses": "Other Category Move",
+    "target": 2,
+    "description": "All allies"
+  },
+  {
+    "name": "Steel Wish",
+    "uses": "Other Category Move",
+    "target": 2,
+    "description": "Field"
+  },
+  {
+    "name": "Shout It Out!",
+    "uses": "Other Category Move",
+    "target": 2,
+    "description": "Self"
+  },
+  {
+    "name": "Lets Share",
+    "uses": "Other Category Move",
+    "target": 1,
+    "description": "All allies"
   }
 ]

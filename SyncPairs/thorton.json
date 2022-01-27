@@ -18,7 +18,7 @@
   "passives": "Aggravation 1",
   "pokefair": false,
   "masterfair": false,
-  "ex": false,
+  "ex": true,
   "f2p": false,
   "mega": false,
   "dynamax": false
